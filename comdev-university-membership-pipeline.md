@@ -1,6 +1,6 @@
 ---
 title: ComDev university membership pipeline — IEEE-inspired campus program, ASF-native governance mapping, university institutional guardrails, and success metrics
-source_session: f7b84d41-01d6-4035-8743-51782e0ab8eb (cwd atticreq) — design/refinement conversation, not a debugging session
+source_session: f7b84d41-01d6-4035-8743-51782e0ab8eb (cwd ~/ASF) — design/refinement conversation, not a debugging session
 compiled: 2026-07-29
 ---
 
