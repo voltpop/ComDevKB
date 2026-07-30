@@ -1,22 +1,21 @@
 ---
 title: ComDev university membership pipeline — IEEE-inspired campus program, ASF-native governance mapping, university institutional guardrails, and success metrics
-source_session: f7b84d41-01d6-4035-8743-51782e0ab8eb (cwd atticreq) — design/refinement conversation, not a debugging session
 compiled: 2026-07-29
 ---
 
 # ComDev university membership pipeline
 
-Compiled while Drew Foulks (ASF Infra, ComDev PMC) worked through the design
-of a university/campus engagement program, wearing his ComDev hat. Explicit
-framing from Drew: this is a **target-state design** — "what we think our
-university presence should look like across the board, regardless of what
-it is right now." Drew is separately, in parallel, conducting an inventory
-of current/ongoing university interactions himself; that inventory is not
-part of this document and reconciling the target state against it is
+Compiled while a ComDev PMC member worked through the design of a
+university/campus engagement program. Explicit framing from the author:
+this is a **target-state design** — "what we think our university
+presence should look like across the board, regardless of what it is
+right now." The author is separately, in parallel, conducting an
+inventory of current/ongoing university interactions; that inventory is
+not part of this document and reconciling the target state against it is
 future work, not yet started.
 
-Two things Drew ruled out explicitly and early, both worth holding onto if
-this gets revisited:
+Two things the author ruled out explicitly and early, both worth holding
+onto if this gets revisited:
 - **Not an academic-credit or grading program.** No course credit, no
   grades, no faculty-graded participation. Stated twice, treated as a hard
   constraint.
@@ -26,7 +25,7 @@ this gets revisited:
 
 ## Starting point: what was wrong with the initial draft
 
-Drew brought an LLM-generated blueprint proposing an IEEE-campus-chapter
+The author brought an LLM-generated blueprint proposing an IEEE-campus-chapter
 model adapted for a "small open-source foundation." The draft's core flaw:
 it implicitly assumed a single-project foundation — one codebase, one set
 of "core maintainers," "the Foundation's technology" as a singular thing.
@@ -53,7 +52,7 @@ Other specific problems flagged in the original draft:
 
 ## Core structural correction: the Society *is* the ASF
 
-Midway through the redesign, Drew corrected the direction explicitly: the
+Midway through the redesign, the author corrected the direction explicitly: the
 goal is a membership pipeline / professional society, not an
 academic-credit program — and, crucially, **the society is the Apache
 Software Foundation itself**, not a new parallel credentialing system
@@ -120,7 +119,7 @@ graduate-bridge mechanism, same rhythm every year.
 
 Working through "what happens when a university's own research/business
 goals interact with this program" surfaced seven concrete tensions. Each
-gets a guardrail *and* a reframe, because Drew asked explicitly not to
+gets a guardrail *and* a reframe, because the author asked explicitly not to
 leave these as pure risk-mitigation — they should read as selling points
 where possible:
 
@@ -196,7 +195,7 @@ graduation); alumni mentor participation rate among graduating leads;
 18-month post-graduation retention as an active contributor.
 
 **Threshold-setting:** no absolute numeric targets yet — no baseline data
-exists and Drew's inventory hasn't landed. First real cohort establishes
+exists and the author's inventory hasn't landed. First real cohort establishes
 baseline; later cohorts get evaluated by trend against that baseline, not
 against an invented number.
 
@@ -213,7 +212,7 @@ so a ComDev steward can triage at a glance.
 
 ## Relationship to the broader "OSS as academic output" movement
 
-Drew brought a second document for review — this one considerably more
+The author brought a second document for review — this one considerably more
 grounded than the original IEEE blueprint — arguing for systemic university
 reform to recognize open-source software as a first-class academic output
 equivalent to journal publications for promotion & tenure (P&T): CITATION.cff
@@ -223,7 +222,7 @@ career tracks, and academic Open Source Program Offices (OSPOs, the kind
 Sloan-funded initiatives are standing up). Real movement, real
 organizations, not invented.
 
-**Decoupling conclusion (Drew's, confirmed):** this reform agenda is a
+**Decoupling conclusion (the author's, confirmed):** this reform agenda is a
 separate, parallel initiative from the campus program — different
 timescale (multi-year, top-down: deans, provosts, funders, ranking bodies),
 different actors, different mechanism (funding/prestige/accreditation
@@ -269,7 +268,7 @@ former ("students already do this for free, no change needed") — the
 second framing would actually undercut the reform case rather than support
 it.
 
-**Drew's stated broader motivation** (2026-07-29): paving the way for open
+**The author's stated broader motivation** (2026-07-29): paving the way for open
 source, as an engineering discipline, to follow the same legitimizing path
 open science has been cutting for the hard sciences — i.e., this campus
 program is one piece of a larger personal effort to establish OSS
@@ -280,7 +279,7 @@ research-science fields.
 
 ## Campus program vs. academic/university OSPO — how they differ, and how to align without merging
 
-Prompted by Drew asking directly how the campus program differs from a
+Prompted by the author asking directly how the campus program differs from a
 university/academic Open Source Program Office (OSPOs, e.g. the
 Sloan-funded academic cohort referenced above), and then how to align goals
 between the two under a "playing nice" framing.
@@ -338,18 +337,18 @@ constituency, no.
 
 No dues, no academic credit or grading, no membership grades/titles
 distinct from real ASF status, no program or ComDev authority over any
-PMC's committer/PMC nomination decisions, and — per Drew, 2026-07-29 —
+PMC's committer/PMC nomination decisions, and — per the author, 2026-07-29 —
 **no rollout/community-buy-in work yet**. That question (how to socialize
 this beyond pilot PMCs without it reading as ComDev overreach into project
 autonomy) was explored in the same conversation and shelved deliberately:
 rollout isn't on the table until the target-state design is further along
-and reconciled against Drew's separate inventory of current university
+and reconciled against the author's separate inventory of current university
 interactions.
 
 ## Open / unresolved — pick up here next
 
 Three target-state design gaps identified but not yet worked through, in
-the order Drew was tackling them:
+the order the author was tackling them:
 
 1. **Liability posture for chapter events** — what the standard *should*
    be (independent of what any current ad hoc chapter is actually doing)
@@ -366,7 +365,7 @@ the order Drew was tackling them:
    annoys a hosting PMC. PMCs have a no-fault hosting exit; chapters
    themselves don't yet have an equivalent off-ramp defined.
 3. ~~Demand/supply scaling mechanism~~ **Resolved (2026-07-30) — no formal
-   mechanism needed.** Drew's conclusion: with ~350 independently governed
+   mechanism needed.** The author's conclusion: with ~350 independently governed
    PMCs/PPMCs plus continuous Incubator ingress of new projects,
    hosting-PMC supply is structurally abundant and elastic relative to any
    realistic campus-chapter demand curve. A formal waitlist/queuing plan
