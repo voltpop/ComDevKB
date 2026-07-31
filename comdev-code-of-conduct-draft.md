@@ -9,12 +9,15 @@ source: derived from comdev-code-of-conduct-revision.md
 
 **Status:** this is ComDev's proposed addition to the existing ASF Code of
 Conduct, prepared at the Board's direction that ComDev provide input into
-the Board-owned CoC revision effort. It is not yet adopted. The Board
-retains ownership of this policy and will decide both its content and how
-it becomes official — either by directly adopting this text, or by
-directing the President to adopt and publish it under existing
-presidential authority. Sections marked **[OPEN]** are not yet resolved
-and should not be read as ComDev's final position on those points.
+the Board-owned CoC revision effort. It is not yet adopted. Targeted for
+the ASF Board meeting on 2026-08-19. The Board retains ownership of this
+policy; the ComDev Chair and VP Legal will jointly decide, and sign off
+on, how it becomes official — either by the Board directly adopting this
+text, or by directing the President to adopt and publish it under
+existing presidential authority (see the two draft resolutions in
+[[comdev-code-of-conduct-board-resolutions]]). Sections marked **[OPEN]**
+are not yet resolved and should not be read as ComDev's final position on
+those points.
 
 ---
 
@@ -106,8 +109,16 @@ layer-2 referral support.
 - **The team does not renew or review itself.** Its continuation is
   reviewed annually by the Board (or, for anything touching
   §4.7-adjacent territory, the membership).
-- **[OPEN]** Appeal quorum on a small team, and escalation if the team
-  as a whole — not one member — acts improperly, are not yet resolved.
+- **Transition note:** in practice, this team is expected to begin as a
+  self-selected group of volunteers for a period before the
+  nomination-based model above is fully in place. The trigger criteria
+  and two-person sign-off in Section 6.3 apply regardless of how the
+  team was seated, and are the actual safeguard against misuse during
+  that transition.
+- **Whole-team misconduct** is addressed through standing Board access
+  to case records with PII obfuscated (Section 6.4) — not a separately
+  invented escalation body.
+- **[OPEN]** Appeal quorum on a small team is not yet resolved.
 
 ### 6.3 Interim measures
 
@@ -151,7 +162,9 @@ Minimal, private logging: date, space, action, duration, category — not
 full narrative — visible only to the response team and relevant
 officers. Interim measures are logged distinctly from final ladder
 actions. Quarterly aggregate counts, with no case detail, are reported
-out.
+out. The Board additionally has standing access to the underlying case
+records with PII obfuscated, so it can directly observe patterns or
+complaints about the response team's own conduct.
 
 ## 7. Layer 2: project-role-level actions
 
@@ -216,10 +229,11 @@ This framework is offered as ComDev's input, not a finished product. The
 following are explicitly not settled, and should not be read into any
 silence elsewhere in this document:
 
-- Severity rubric for routing between layers.
+- **Severity rubric for routing between layers — top-priority remaining
+  human-judgment work**, not a mechanical or legal gap.
 - Non-chair officer removal mechanics (Section 8).
 - Conflicted-reporting-path alternate recipient (Section 5).
-- Appeal quorum and whole-team misconduct escalation (Section 6.2).
+- Appeal quorum on a small response team (Section 6.2).
 - Reporter-attribution privacy/security review (Section 6.3).
 - Bylaws delegation authority, 501(c)(3) obligations, and the legal
   standing of a document-and-refer committee (Section 9).

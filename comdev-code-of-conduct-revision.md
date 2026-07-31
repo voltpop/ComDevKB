@@ -274,15 +274,29 @@ wiki edit rights). Explicitly excludes PMC roles/committer status (layer
   (above) narrows an already-thin volunteer pool further, in an org with
   a chronic capacity constraint. This is an accepted trade-off for
   adverse-selection safety, not a problem assumed away.
+- **Reality check (2026-07-30):** in practice, this team will likely
+  start as a self-selected, ad hoc group of volunteers for a while,
+  rather than the nomination model above taking hold immediately —
+  named explicitly rather than assumed away. The quantifiable,
+  checkable-fact discipline built into the interim-measures triggers and
+  the two-person sign-off (below) is the safeguard that holds regardless
+  of how cleanly the team itself got seated — it doesn't depend on
+  selection being clean to still constrain subjectivity and abuse.
+  Nomination-based selection remains the target to work toward, not a
+  precondition for the rest of this design to function.
+- **Whole-team misconduct — resolved (2026-07-30).** Handled by the
+  Board directly, not a newly-invented escalation body: the Board has
+  standing access to the underlying case records with PII obfuscated
+  (see Recordkeeping, below) — not just the quarterly aggregate counts —
+  specifically so it can directly observe patterns or complaints about
+  the team's own conduct, and act on its existing reserve authority over
+  any PMC-adjacent body.
 - **Still open:** appeal quorum is thin by construction on a 3–5 person
   team (if 2 acted, as few as 1 remain "uninvolved" to hear an appeal) —
   narrowing who's *on* the team doesn't fix this. Possible fix: route
   appeals to `wg-code-of-conduct` broadly if it's larger than the
   response team, or make VP D&I review the default rather than an
-  alternative below some team size. Also open: no defined escalation if
-  the *team as a whole* (not one member) acts badly — possibly Board
-  reserve authority over any PMC-adjacent body (layer 3 territory),
-  unconfirmed.
+  alternative below some team size.
 
 **Process and timeline:**
 1. Report comes in (existing `private@` addresses, or a new low-effort
@@ -304,7 +318,11 @@ action, duration, general category (not full narrative) — visible only to
 the rotating team and relevant officers. Same minimal-data-footprint
 principle as guardrail #7 in [[comdev-university-membership-pipeline]].
 Quarterly aggregate counts (no case detail) reported out, matching the
-Chair's plan's reporting rhythm.
+Chair's plan's reporting rhythm. **Additionally (2026-07-30):** the Board
+has standing access to the underlying case records with PII obfuscated —
+not just the aggregate counts — specifically so it can directly observe
+patterns or complaints about the team's own conduct, rather than relying
+solely on the team's own self-reporting.
 
 **Governance hooks:** a named point of *contact* for questions, never
 sole decision authority (satisfies "no single-person dependency" without
@@ -668,10 +686,14 @@ quietly hardening into an assumed requirement.
 
 ## Open / unresolved — pick up here next
 
+- **TOP PRIORITY — human judgment work still needed: severity rubric.**
+  Still fully undrafted. Confirmed (2026-07-30) as still needed, not
+  something to quietly drop — gates layer-1-vs-2 routing throughout this
+  entire framework. Called out explicitly as the top item of remaining
+  *human* (not legal, not mechanical) work.
 - **Target: a proposal drawn from this doc is intended for submission at
-  an ASF Board meeting in August 2026** (exact date not yet confirmed as
-  of 2026-07-30; confirmed to be the Board specifically, not just a
-  ComDev PMC meeting).
+  the ASF Board meeting on 2026-08-19** (confirmed 2026-07-30; confirmed
+  to be the Board specifically, not just a ComDev PMC meeting).
 - ~~Whether a new VP Legal has been seated yet~~ **Resolved (2026-07-30)
   — yes,** and a direct conversation has now happened — see "Questions
   for the VP Legal" below for the full answer set.
@@ -686,22 +708,23 @@ quietly hardening into an assumed requirement.
   affected PMCs.
 - ~~Layer 3 (officer-level actions) is still almost entirely undrafted~~
   **Partially drafted (2026-07-30)** — chair-removal mechanics are now
-  confirmed (PMC vote → routine monthly Board ratification). Still open:
-  equivalent mechanics for removing any *other* Board-appointed officer
-  (President, EVP, VP D&I, VP Legal), and the conflicted-reporting-path
-  edge case when a report recipient is themself the subject.
+  confirmed (PMC vote → routine monthly Board ratification).
+  **Confirmed still needing work (2026-07-30):** equivalent mechanics for
+  removing any *other* Board-appointed officer (President, EVP, VP D&I,
+  VP Legal), and the conflicted-reporting-path edge case when a report
+  recipient is themself the subject.
 - **New (2026-07-30): Layer 4 enriched, still thin by design** — an
   existing 2-year-inactivity involuntary-emeritus mechanism (believed
   two-thirds vote) is now documented as a procedural anchor, and emeritus
   status is confirmed reversible by the member's own request. Still fully
   open: bylaws delegation authority (Q4), 501(c)(3) consistency
   obligations (Q7), and whether a document-and-refer committee raises any
-  legal issue at all (Q8) — see "Questions for the VP Legal" below.
-- **New (2026-07-30): adoption/publication mechanics documented, path not
-  chosen** — see the new "Adoption / publication mechanics" section.
-  Board-direct-adoption vs. Board-directs-President-to-publish is a
-  political read on this specific Board, not yet decided, and it shapes
-  how the August submission itself should be framed.
+  legal issue at all (Q8) — see the new "Legal TODO" section below.
+- **Adoption/publication mechanics documented; decision owner confirmed
+  (2026-07-30).** Path A vs. Path B is not the author's call alone — **the
+  ComDev Chair and the new VP Legal will jointly pick a path and sign
+  off.** See "Adoption / publication mechanics" above and "Legal TODO"
+  below.
 - Interdependencies between layers, identified while drafting layer 2,
   still need resolving: the evidence-handoff format between layer 1's
   minimal log and a fuller layer-2/3 case file; the cross-project
@@ -710,12 +733,18 @@ quietly hardening into an assumed requirement.
   substantiated layer-2 referral.
 - Rotating-team appointment/accountability drafted (2026-07-30) — see
   "Team composition, selection, and accountability" under Layer 1
-  mechanics (nomination-based selection over self-application, staggered
-  volunteer terms, no-fault exit, Board/Membership as the body that
-  reviews and renews the team rather than the team reviewing itself).
-  Still open within it: appeal quorum on a small team, and no defined
-  escalation if the team *as a whole* (not one member) misbehaves —
-  possibly layer-3/Board-reserve-authority territory.
+  mechanics. **Reality check added (2026-07-30):** the nomination-based
+  model is the target, but the team will likely start as a self-selected,
+  ad hoc group of volunteers for a while in practice — the quantifiable,
+  checkable-fact discipline in the triggers and two-person sign-off is
+  the safeguard that holds regardless of how cleanly the team itself got
+  seated. **Whole-team misconduct — resolved (2026-07-30):** handled by
+  the Board directly via standing Board access to case records with PII
+  obfuscated (not just quarterly aggregate counts) — no new escalation
+  body needed. **Still open:** appeal quorum on a small team (if 2 acted,
+  as few as 1 remain "uninvolved" to hear an appeal) — possible fix:
+  route appeals to `wg-code-of-conduct` broadly if larger than the
+  response team, or make VP D&I review the default below some team size.
 - Interim/precautionary measures drafted (2026-07-30) — see the
   subsection under Layer 1 mechanics, including trigger criteria, scope
   cap, duration, notice, appeal, and a report-system abuse-resistance
@@ -725,16 +754,11 @@ quietly hardening into an assumed requirement.
   reporter-attribution data the abuse tracker requires (map-of-reporters
   risk if the dataset leaks; review-step reliability risk if closure
   reasons aren't recorded honestly) — flagged, not resolved.
-- **Severity rubric still fully undrafted** — deliberately set aside as
-  needing more judgment than was available in this session. Gates
-  layer-1-vs-2 routing; worth an explicit decision on whether the August
-  submission can go out with this marked "routing criteria TBD" or
-  whether it blocks something.
-- **Document format itself still needs translation** — this is written as
-  a knowledge-base capture of an evolving conversation (meta-narration,
-  inline open questions, cross-references to sibling KB docs). Whatever
-  goes to the Board needs to be a standalone artifact, independent of
-  whether the content gaps above are closed.
+- ~~Document format itself still needs translation~~ **Addressed
+  (2026-07-30)** — see [[comdev-code-of-conduct-draft]] (standalone
+  policy draft) and [[comdev-code-of-conduct-board-resolutions]] (draft
+  Board resolutions for Path A and Path B). This working doc remains the
+  fuller design-history record behind those artifacts.
 
 ## Questions for the VP Legal (2026-07-30) — asked, partially answered
 
@@ -817,3 +841,24 @@ question list, now annotated with answers from that direct conversation.
 all three gate how much Layer 4 (and possibly the document-and-refer
 framing generally) can honestly claim. Worth prioritizing before
 finalizing that language, not after.
+
+## Legal TODO — concrete checklist for the VP Legal conversation
+
+Consolidated, actionable version of what's still needed from Legal,
+requested explicitly (2026-07-30) rather than leaving it scattered across
+the Q&A above:
+
+1. **Answer Q4** — can the Board delegate §4.7-adjacent authority to a
+   committee by ordinary resolution, or does it require a bylaws
+   amendment (and if so, Board-only or full membership vote)?
+2. **Answer Q7** — does 501(c)(3) status impose a
+   consistency/non-arbitrary-enforcement obligation relevant here?
+3. **Answer Q8** — does a committee that only documents-and-refers (never
+   decides) raise any legal issue at all?
+4. **Review both draft Board resolutions** in
+   [[comdev-code-of-conduct-board-resolutions]] — neither has been
+   legal-reviewed; both are modeled on typical phrasing, not confirmed
+   correct.
+5. **Jointly pick Path A or Path B** with the ComDev Chair, and sign off —
+   confirmed (2026-07-30) this is not the author's decision to make
+   alone.
