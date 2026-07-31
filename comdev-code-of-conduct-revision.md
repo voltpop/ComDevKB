@@ -756,9 +756,8 @@ quietly hardening into an assumed requirement.
   reasons aren't recorded honestly) — flagged, not resolved.
 - ~~Document format itself still needs translation~~ **Addressed
   (2026-07-30)** — see [[comdev-code-of-conduct-draft]] (standalone
-  policy draft) and [[comdev-code-of-conduct-board-resolutions]] (draft
-  Board resolutions for Path A and Path B). This working doc remains the
-  fuller design-history record behind those artifacts.
+  policy draft). This working doc remains the fuller design-history
+  record behind that artifact.
 
 ## Questions for the VP Legal (2026-07-30) — asked, partially answered
 
@@ -855,10 +854,6 @@ the Q&A above:
    consistency/non-arbitrary-enforcement obligation relevant here?
 3. **Answer Q8** — does a committee that only documents-and-refers (never
    decides) raise any legal issue at all?
-4. **Review both draft Board resolutions** in
-   [[comdev-code-of-conduct-board-resolutions]] — neither has been
-   legal-reviewed; both are modeled on typical phrasing, not confirmed
-   correct.
-5. **Jointly pick Path A or Path B** with the ComDev Chair, and sign off —
+4. **Jointly pick Path A or Path B** with the ComDev Chair, and sign off —
    confirmed (2026-07-30) this is not the author's decision to make
    alone.

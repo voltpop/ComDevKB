@@ -14,10 +14,9 @@ the ASF Board meeting on 2026-08-19. The Board retains ownership of this
 policy; the ComDev Chair and VP Legal will jointly decide, and sign off
 on, how it becomes official — either by the Board directly adopting this
 text, or by directing the President to adopt and publish it under
-existing presidential authority (see the two draft resolutions in
-[[comdev-code-of-conduct-board-resolutions]]). Sections marked **[OPEN]**
-are not yet resolved and should not be read as ComDev's final position on
-those points.
+existing presidential authority. Sections marked **[OPEN]** are not yet
+resolved and should not be read as ComDev's final position on those
+points.
 
 ---
 
