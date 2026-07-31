@@ -260,6 +260,28 @@ wiki edit rights). Explicitly excludes PMC roles/committer status (layer
   team member who is themself the subject of a substantiated complaint
   is handled through this same CoC process, recursively, like anyone
   else.
+- **Confirmation and removal-for-cause mechanism, specified
+  (2026-07-31):** standard ASF lazy consensus — proposal posted to
+  `wg-code-of-conduct`, stands absent a PMC-member objection within 72
+  hours — rather than a heavier invented formal-vote process. Reality
+  check from this same conversation: whatever gets written down, actual
+  seating decisions in a volunteer org like this will run on lazy
+  consensus among a self-selected pool regardless, so the design should
+  describe what will actually happen rather than an idealized process
+  nobody follows. The real safeguard against a bad seating is the
+  checkable-fact interim-measure triggers and two-person sign-off
+  governing actual casework, not the seating formality itself. A member
+  facing a removal-for-cause proposal is recused from active casework
+  for its duration; no-fault exit remains available at any time instead.
+- **Term length, specified (2026-07-31, revised same day):** 1 year,
+  coinciding with the team's own annual review point rather than running
+  on a separate clock — since that annual review already exists, a
+  longer staggered term would just be a second, redundant schedule.
+  Renewal runs on the same lazy-consensus mechanism as initial seating
+  (continues unless a PMC member objects at the review point), so
+  continuity in practice rests on lazy-consensus inertia rather than a
+  forced multi-year term or separate per-seat staggering. (3 seats to
+  start, growing toward 5 as capacity allows.)
 - **The team does not review or renew itself.** The annual sunset/review
   point (governance hooks, below) is conducted by the Board or, where it
   touches §4.7-adjacent territory, the Membership — not
@@ -284,19 +306,33 @@ wiki edit rights). Explicitly excludes PMC roles/committer status (layer
   selection being clean to still constrain subjectivity and abuse.
   Nomination-based selection remains the target to work toward, not a
   precondition for the rest of this design to function.
-- **Whole-team misconduct — resolved (2026-07-30).** Handled by the
-  Board directly, not a newly-invented escalation body: the Board has
-  standing access to the underlying case records with PII obfuscated
-  (see Recordkeeping, below) — not just the quarterly aggregate counts —
-  specifically so it can directly observe patterns or complaints about
-  the team's own conduct, and act on its existing reserve authority over
-  any PMC-adjacent body.
-- **Still open:** appeal quorum is thin by construction on a 3–5 person
-  team (if 2 acted, as few as 1 remain "uninvolved" to hear an appeal) —
-  narrowing who's *on* the team doesn't fix this. Possible fix: route
-  appeals to `wg-code-of-conduct` broadly if it's larger than the
-  response team, or make VP D&I review the default rather than an
-  alternative below some team size.
+- **Whole-team misconduct — resolved (2026-07-30), made actionable
+  (2026-07-31).** Handled by the Board directly, not a newly-invented
+  escalation body: the Board has standing access to the underlying case
+  records with PII obfuscated (see Recordkeeping, below) — not just the
+  quarterly aggregate counts — specifically so it can directly observe
+  patterns or complaints about the team's own conduct. That visibility
+  now pairs with an explicit action: the Board can initiate the same
+  lazy-consensus removal-for-cause mechanism above against a team member
+  directly, or in extremis vote to dissolve and reconstitute the team,
+  under its ordinary existing oversight authority — no new authority
+  invented, just applied here explicitly.
+- **Appeal quorum — resolved (2026-07-31).** Thin by construction on a
+  3–5 person team (if 2 acted, as few as 1 remain "uninvolved" to hear
+  an appeal) — narrowing who's *on* the team doesn't fix this. Rejected
+  both originally-floated fixes as insufficient alone (VP D&I alone
+  concentrates repeat appellate load on one volunteer officer;
+  `wg-code-of-conduct` broadly has its own undefined size/quorum).
+  **Design:** primary reviewers are uninvolved response-team members;
+  when fewer than 2 remain, the appeal routes to a small standing
+  **Board-level backstop group** (2–3 Board-designated members, rotating
+  at the Board's own discretion) — reuses the Board's already-
+  established standing case-record access, so no separate
+  onboarding/disclosure step is needed per appeal.
+- **Ad hoc → nomination transition trigger, specified (2026-07-31):**
+  tied to the existing annual review point rather than a separate
+  deadline — the team formalizes to the nomination model no later than
+  its first annual review, sooner if seats fill informally before then.
 
 **Process and timeline:**
 1. Report comes in (existing `private@` addresses, or a new low-effort
@@ -582,44 +618,101 @@ question is answered, but those roles don't have an initiating "PMC vote"
 to point to, so what triggers a review of *their* conduct, and by whom,
 is undefined.
 
-**Edge case, still unaddressed:** the current CoC's designated report
-recipients (President, EVP, VP D&I) are themselves officer-level roles.
-If one of them is the subject of a CoC complaint, the normal reporting
-path is directly conflicted. Needs an explicit alternate path (e.g.
-report to a different officer, or directly to the Board) — not
-addressed anywhere in the current CoC or this draft yet.
+**Edge case, resolved 2026-07-31 (briefs Q9):** the current CoC's
+designated report recipients (President, EVP, VP D&I) are themselves
+officer-level roles. If one of them is the subject of a CoC complaint,
+the normal reporting path is directly conflicted. **Answer: report
+directly to the Board (board@, or a designated non-conflicted
+director).** This follows structurally from §8's own §6.5/§6.2 analysis —
+the Board is the only body with authority over the President/EVP — so
+this is a two-sentence CoC addition, no bylaws dependency. Non-chair
+officer *removal* mechanics (§6.5: total Board discretion, no defined
+process) remain the separate, still-open piece — see
+[[comdev-coc-legal-questions-and-briefs]] Q8.
 
-## Layer 4 mechanics: ASF-Membership-level action (draft — deliberately
-thin, enriched 2026-07-30 with existing-mechanism detail)
+## Layer 4 mechanics: ASF-Membership-level action (draft — enriched
+2026-07-30 with existing-mechanism detail; corrected and substantially
+resolved 2026-07-31 by research briefs in
+[[comdev-coc-legal-questions-and-briefs]])
 
 Scope: termination or involuntary emeritus conversion, locked to Bylaws
 §4.7's two-thirds membership vote. Deliberately kept thin per the working
 conclusion above — this doesn't invent new mechanics, it points at what
 already exists.
 
-**An analogous mechanism already runs today** (direct VP Legal
-confirmation, 2026-07-30): the ASF already involuntarily converts members
-to emeritus status after **2 years of inactivity**, believed (VP Legal's
-own words: "I think") to require the same **two-thirds membership vote**
-as any other §4.7 action. A CoC-driven involuntary emeritus conversion for
-conduct reasons would piggyback on this same existing voting mechanism,
-not invent a parallel one — consistent with the "reuse existing
-processes" guardrail inferred from the Chair's strategic plan (see
-below).
+**Correction (2026-07-31, briefs Q5):** the "2 years of inactivity"
+precedent stated below did not hold up under closer bylaws review — there
+is **no fixed inactivity horizon in the bylaws at all**, and the confirmed
+practice figure is **~5 years**, not 2. The bylaws' actual mechanism is
+either §4.3 (voluntary, requires the member's own signed notice — silence
+doesn't satisfy this) or §4.4 (involuntary, two-thirds vote, no stated
+trigger); which door the existing practice actually runs through is still
+unconfirmed. Also important: the practice's **recorded purpose is quorum
+management**, not conduct — extending it to CoC cases is a genuine
+purpose extension, not "we already do this," and the framework should say
+so plainly rather than lean on it as a clean precedent.
 
-**Emeritus is not fully binary in practice:** emeritus status removes
-membership rights, but reactivation happens **by the member's own
-request** — softer than this doc previously assumed (a hard binary with
-no described path back). Still unclear whether reactivation-by-request is
-effectively automatic or itself requires an approval step; worth a direct
-follow-up.
+**Correction (2026-07-31, briefs Q6):** reactivation from emeritus is
+**not** simple request-based, as previously assumed here. §4.5 requires
+the member's written request **plus a new membership application plus an
+affirmative majority vote of the members** — effectively re-election, at
+a lower (majority, not two-thirds) bar than the vote that converted them
+out, but a real gate, not an automatic reversal.
 
-**Still fully open, pending further VP Legal review:** whether the Board
-can delegate any part of this authority to a committee without a bylaws
-amendment; whether 501(c)(3) status imposes a consistency/non-arbitrary-
-enforcement obligation relevant here; whether a committee that only
-documents-and-refers (never decides) raises any legal issue at all. See
-"Questions for the VP Legal" below.
+**Resolved (2026-07-31) — see
+[[comdev-coc-legal-questions-and-briefs]] Q1, Q2, Q7:**
+- The Board *can* reach delegation of §4.7-adjacent authority, but only
+  via its unilateral bylaws-amendment power (Art. X), not an ordinary
+  resolution — and doing so would be politically explosive (stripping the
+  membership's own §4.4/§4.7 protection) and reversible by the membership
+  re-amending. **Document-and-refer remains the sound design on both
+  legal and political grounds**, not just as a stopgap pending a slower
+  legal track.
+- A document-and-refer committee that only investigates and recommends —
+  never decides or binds — raises no legal issue: DGCL §141(c)'s
+  board-power formality doesn't reach purely advisory bodies.
+- 501(c)(3) status imposes essentially no obligation here; member
+  discipline is a state-law (Delaware nonstock corporation) matter, not a
+  federal tax-exemption one.
+
+**Still open:** the common-law procedural floor for a §4.7 vote (notice +
+opportunity to be heard + following the org's own rules — briefs Q4)
+confirms the "conservative assumption" this framework already uses is the
+right one, but isn't itself a bylaws requirement to point to. The
+conduct-action log's legal exposure (discoverability, defamation,
+retention, and an open GDPR question for any org with EU participants —
+briefs Q10) hasn't been addressed anywhere in this framework yet and
+should be before the reporter-attribution tracker design goes further.
+
+## Scope of enforcement: off-platform / social-media conduct (new,
+2026-07-31, from [[comdev-coc-legal-questions-and-briefs]] Q11)
+
+Not previously flagged anywhere in this document — a real gap, not just
+an unresolved detail. The September 2025 wiki draft's scope language
+("official or unofficial" spaces) is legally actionable — association
+discipline is contractual; an org can reach conduct outside its own
+spaces if its adopted rules clearly say so and it follows its own
+procedure (*Dawkins v Antrobus*, no First Amendment bar) — but it is
+**broader than every surveyed peer CoC** (Contributor Covenant, Linux
+kernel, Debian, Rust: own venues only; CNCF: external spaces only when
+"directed at" a CNCF project/community/participant; PSF: enumerated
+spaces plus a harm-triggered case-by-case test in enforcement
+procedures, not the scope section). Undefined blanket scope is exactly
+the vagueness that produced both the rare successful legal challenges and
+the real governance blowups (OpalGate 2015, Drupal/Garfield 2017, Linux
+kernel 2018) — the risk is political/reputational as much as legal.
+
+**Recommended fix, to land before the August submission:** drop
+"unofficial" as a scope category. Scope = ASF-managed spaces + conduct
+"representing the ASF" (Contributor Covenant 2.1 baseline), plus a
+CNCF-style clause reaching cross-platform harassment *directed at* an ASF
+project/community/participant, with a PSF-style harm-triggered
+admissibility test (safety-impact, not blanket jurisdiction) living in
+the enforcement procedures rather than the scope section. This also
+matches the framework's existing checkable-fact discipline (interim
+measures, etc.): ASF can only action its own spaces, roles, events, and
+membership status — it should only *claim* jurisdiction it can actually
+exercise.
 
 ## Related: the Chair's own strategic plan retains a CoC working group
 
@@ -684,6 +777,58 @@ None of these are confirmed. Next real conversation with the Chair should
 either validate or discard each one explicitly, rather than this list
 quietly hardening into an assumed requirement.
 
+## External gap review of the draft policy text (2026-07-31)
+
+A reviewer with legal context sent a 14-point gap analysis of
+[[comdev-code-of-conduct-draft]] directly (their own separate CoC draft
+apparently covers some of the same ground) — full list preserved in
+[[comdev-coc-draft-external-gap-review]]. Triaged:
+
+**Already resolved before this review landed:** the scope-of-application
+gap they flagged was already added the same day (Section 4's "Scope of
+applicability" paragraph) — likely reviewed against an earlier copy.
+
+**Fixed same-day, low-risk/clear-default items:** a "No Action"
+disposition (closure-reason recording, notification, quarterly-aggregate
+inclusion); a base 14-day appeal window for final (non-interim) ladder
+actions, reusing the Board-level backstop group already designed for
+appeal quorum; per-case recusal for the response team (mirroring the
+Layer 2 PMC-recusal norm); reporter confidentiality and an explicit
+bad-faith-reporting rule (previously only an implicit statistical
+pattern-flag); a conduct-not-positions clarification; informal-
+resolution norms before the formal report path; two internal-consistency
+bugs (§10 pointed at "the body designated in Section 6.2" for reviewing
+the *framework*, when 6.2 only designates a reviewer for the *team* —
+now split explicitly into team-review-by-Board vs.
+framework-review-by-`wg-code-of-conduct`; and Sections 2–3's "unchanged"
+framing read as two documents coexisting when adoption is meant to fully
+replace the current CoC text — reworded to "carried forward, unchanged
+in substance").
+
+**Flagged, not designed — genuine judgment calls, not bugs:**
+- **A path to permanent exclusion for role-less participants** — the
+  most structurally significant gap found. Layers 2–4 all require an
+  existing role/title/membership to attach to; a participant with none
+  of those can only ever receive Layer 1's deliberately *temporary*
+  measures. Needs either a new permanent-exclusion step with a named
+  decider and appeal, or an explicit statement of who outside this
+  framework holds that power (Infra? a new Board-delegated authority?).
+- **Content-level actions** — the ladder governs access to spaces, not
+  removal of the offending content itself (a slur in a commit message, a
+  doxxing wiki edit). Undefined who acts and how it's logged.
+- **Person-based (cross-space) "no contact" measures** — every ladder
+  measure is space-scoped today; no mechanism follows a target's
+  specific harasser across spaces. Likely needs indirect enforcement
+  (breach = new, escalating misconduct) rather than active monitoring.
+- **The President's residual role** — the published CoC currently names
+  President/EVP/VP D&I as report recipients; this framework substitutes
+  the rotating team without saying what's left for the President to do
+  in the routine (non-conflicted) case.
+
+Severity-rubric note from the same review: the base CoC (or the
+reviewer's own draft) may have Community-Impact-tier language usable as
+a seed, rather than drafting the rubric from nothing.
+
 ## Open / unresolved — pick up here next
 
 - **TOP PRIORITY — human judgment work still needed: severity rubric.**
@@ -711,40 +856,57 @@ quietly hardening into an assumed requirement.
   confirmed (PMC vote → routine monthly Board ratification).
   **Confirmed still needing work (2026-07-30):** equivalent mechanics for
   removing any *other* Board-appointed officer (President, EVP, VP D&I,
-  VP Legal), and the conflicted-reporting-path edge case when a report
-  recipient is themself the subject.
-- **New (2026-07-30): Layer 4 enriched, still thin by design** — an
+  VP Legal) — briefs Q8 confirms §6.5 gives the Board unconstrained
+  removal authority already, so what's missing is only the
+  complaint→Board referral path, not new authority.
+  ~~the conflicted-reporting-path edge case when a report recipient is
+  themself the subject~~ **Resolved 2026-07-31 (briefs Q9):** report
+  directly to the Board (board@ or a designated non-conflicted
+  director).
+- ~~**New (2026-07-30): Layer 4 enriched, still thin by design** — an
   existing 2-year-inactivity involuntary-emeritus mechanism (believed
-  two-thirds vote) is now documented as a procedural anchor, and emeritus
-  status is confirmed reversible by the member's own request. Still fully
-  open: bylaws delegation authority (Q4), 501(c)(3) consistency
-  obligations (Q7), and whether a document-and-refer committee raises any
-  legal issue at all (Q8) — see the new "Legal TODO" section below.
+  two-thirds vote)~~ **Corrected 2026-07-31:** no fixed inactivity
+  horizon exists in the bylaws; confirmed practice is ~5 years, purpose
+  is quorum management not conduct, and the mechanism (§4.3 vs. §4.4) is
+  still unconfirmed. Emeritus reactivation is **not** simple request —
+  §4.5 requires a new membership application plus an affirmative
+  majority member vote. Bylaws delegation authority (Q4), 501(c)(3)
+  consistency obligations (Q7), and the document-and-refer committee's
+  legal standing (Q8) are now all answered — see
+  [[comdev-coc-legal-questions-and-briefs]] and the updated Layer 4
+  section above. Still genuinely open: the conduct-action log's
+  discoverability/defamation/retention/GDPR exposure (Q10), and the
+  off-platform scope gap (Q11, new section above).
 - **Adoption/publication mechanics documented; decision owner confirmed
   (2026-07-30).** Path A vs. Path B is not the author's call alone — **the
   ComDev Chair and the new VP Legal will jointly pick a path and sign
   off.** See "Adoption / publication mechanics" above and "Legal TODO"
-  below.
+  below. **New supporting fact (2026-07-31, briefs Q3):** the current CoC
+  was never Board-adopted in the first place (2014 officer action, no
+  board resolution or discussion in the minutes) — strengthens the case
+  for Path B.
 - Interdependencies between layers, identified while drafting layer 2,
   still need resolving: the evidence-handoff format between layer 1's
   minimal log and a fuller layer-2/3 case file; the cross-project
   notification protocol when the layer-1 rotating team refers a pattern
   to a specific PMC; what happens if a PMC declines to act on a
   substantiated layer-2 referral.
-- Rotating-team appointment/accountability drafted (2026-07-30) — see
-  "Team composition, selection, and accountability" under Layer 1
-  mechanics. **Reality check added (2026-07-30):** the nomination-based
-  model is the target, but the team will likely start as a self-selected,
-  ad hoc group of volunteers for a while in practice — the quantifiable,
-  checkable-fact discipline in the triggers and two-person sign-off is
-  the safeguard that holds regardless of how cleanly the team itself got
-  seated. **Whole-team misconduct — resolved (2026-07-30):** handled by
-  the Board directly via standing Board access to case records with PII
-  obfuscated (not just quarterly aggregate counts) — no new escalation
-  body needed. **Still open:** appeal quorum on a small team (if 2 acted,
-  as few as 1 remain "uninvolved" to hear an appeal) — possible fix:
-  route appeals to `wg-code-of-conduct` broadly if larger than the
-  response team, or make VP D&I review the default below some team size.
+- Rotating-team appointment/accountability drafted (2026-07-30), **fully
+  specified (2026-07-31)** — see "Team composition, selection, and
+  accountability" under Layer 1 mechanics. Nomination-based selection is
+  the target; the team will likely start as a self-selected, ad hoc
+  group in practice, formalizing no later than its first annual review.
+  Confirmation and removal-for-cause both run by standard ASF lazy
+  consensus (72-hour objection window on `wg-code-of-conduct`) rather
+  than an invented formal vote — named as the honest expectation for how
+  a volunteer org actually seats people, not an idealized process.
+  1-year terms coinciding with the team's own annual review point, 3
+  seats to start. Whole-team misconduct: the
+  Board's existing standing record access now pairs with the power to
+  act on it directly (removal-for-cause, or in extremis dissolve/
+  reconstitute). Appeal quorum: uninvolved response-team members first,
+  falling back to a small Board-designated backstop group (2–3 members)
+  rather than a single volunteer officer when too few remain uninvolved.
 - Interim/precautionary measures drafted (2026-07-30) — see the
   subsection under Layer 1 mechanics, including trigger criteria, scope
   cap, duration, notice, appeal, and a report-system abuse-resistance
@@ -785,7 +947,14 @@ question list, now annotated with answers from that direct conversation.
    authority to a committee by ordinary Board resolution, or does that
    require a bylaws amendment — and if so, does *amending the bylaws*
    itself need a full membership vote, or just the Board?
-   **Answer: still needs review** — not yet answered.
+   **Answered 2026-07-31, [[comdev-coc-legal-questions-and-briefs]] Q1:**
+   not by ordinary resolution — but the Board *can* reach it via its own
+   unilateral bylaws-amendment power (Art. X), no membership vote required
+   for the amendment itself. Politically, though, the Board using that
+   power to move the membership's own §4.4/§4.7 protection away from them
+   would be explosive and reversible by the membership re-amending — so
+   document-and-refer remains the right design, now on political as well
+   as legal-speed grounds.
 5. Is there any recognized status between "full active Member" and
    "terminated/emeritus" — e.g., a temporary suspension of voting rights
    short of full emeritus conversion — or do the bylaws only recognize
@@ -806,12 +975,17 @@ question list, now annotated with answers from that direct conversation.
 7. Does 501(c)(3) status impose any obligations relevant here — e.g.,
    around consistent, non-arbitrary enforcement — even though it's not
    the primary constraint?
-   **Answer: still needs review** — not yet answered.
+   **Answered 2026-07-31, [[comdev-coc-legal-questions-and-briefs]] Q7:**
+   confirmed — essentially nothing. Member discipline is a state-law
+   matter; none of the federal exemption tests (private inurement,
+   private benefit, §4958, lobbying/campaign limits) touch it.
 8. Does a committee that only *documents a case and refers it* to a
    membership vote (never deciding anything itself) raise any legal issue
    at all, or is that clearly safe under current bylaws?
-   **Answer: unclear at this point, needs further review** — not yet
-   answered.
+   **Answered 2026-07-31, [[comdev-coc-legal-questions-and-briefs]] Q2:**
+   clearly safe — DGCL §141(c)'s committee formality only reaches
+   committees exercising board power (deciding, binding, approving); a
+   purely advisory investigate-and-refer body exercises none of that.
 9. **(Layer 3)** if a PMC votes to remove its own chair, does that
    require separate, explicit Board action to actually take effect —
    given the chair title is a Board-appointed corporate officer position —
@@ -836,24 +1010,34 @@ question list, now annotated with answers from that direct conversation.
     **Answer: resolved by Q3** — ComDev's standing is as an input
     provider under Board ownership, not an independent originator.
 
-**Still outstanding, needs a follow-up conversation:** Q4, Q7, and Q8 —
-all three gate how much Layer 4 (and possibly the document-and-refer
-framing generally) can honestly claim. Worth prioritizing before
-finalizing that language, not after.
+~~**Still outstanding, needs a follow-up conversation:** Q4, Q7, and Q8~~
+**Resolved 2026-07-31** — full research briefs received and folded in
+above; see [[comdev-coc-legal-questions-and-briefs]] for the complete
+answer set (Q1–Q11), including two items not originally asked: the
+2-year-inactivity precedent corrected to ~5 years with an ambiguous
+bylaws mechanism (Q5), and a new off-platform/social-media scope concern
+not previously flagged in this document at all (Q11 — see new section
+below). These are research briefs, not formal outside-counsel legal
+advice — still worth a confirming pass with the VP Legal before the
+August submission finalizes language that leans on them.
 
 ## Legal TODO — concrete checklist for the VP Legal conversation
 
 Consolidated, actionable version of what's still needed from Legal,
-requested explicitly (2026-07-30) rather than leaving it scattered across
-the Q&A above:
+requested explicitly (2026-07-30), now mostly resolved 2026-07-31:
 
-1. **Answer Q4** — can the Board delegate §4.7-adjacent authority to a
-   committee by ordinary resolution, or does it require a bylaws
-   amendment (and if so, Board-only or full membership vote)?
-2. **Answer Q7** — does 501(c)(3) status impose a
-   consistency/non-arbitrary-enforcement obligation relevant here?
-3. **Answer Q8** — does a committee that only documents-and-refers (never
-   decides) raise any legal issue at all?
+1. ~~**Answer Q4**~~ **Answered** — Board *can* delegate via unilateral
+   bylaws amendment (no membership vote needed for the amendment), but
+   shouldn't; document-and-refer stays the design.
+2. ~~**Answer Q7**~~ **Answered** — no relevant 501(c)(3) obligation.
+3. ~~**Answer Q8**~~ **Answered** — document-and-refer raises no legal
+   issue.
 4. **Jointly pick Path A or Path B** with the ComDev Chair, and sign off —
    confirmed (2026-07-30) this is not the author's decision to make
-   alone.
+   alone. **Now has a supporting fact (briefs Q3):** the current CoC was
+   never Board-adopted in the first place (2014 officer action, no board
+   resolution) — Path B has real precedent, including the Board's own
+   2025-09-24 use of a light discussion-item vote on this exact topic.
+5. **New, not on the original list (briefs Q11):** narrow the draft's
+   scope language before submission — see new section below. This is a
+   drafting fix, not something that needs further legal input.
