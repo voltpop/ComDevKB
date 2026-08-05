@@ -213,8 +213,7 @@ wiki edit rights). Explicitly excludes PMC roles/committer status (layer
   should just say explicitly this is expected first-line behavior, not
   something requiring escalation.
 - Step 4 and above requires sign-off from **two members of a small
-  rotating CoC response team** (3–5 people, same rotation cadence the
-  Chair's plan already uses for graduation outreach) — never a single
+  rotating CoC response team** (3–5 people) — never a single
   officer acting alone, never permanently the same two people.
 - **Emergency exception:** for an active, ongoing safety situation, one
   person can act immediately, but it must go to the full rotating team
@@ -244,10 +243,10 @@ wiki edit rights). Explicitly excludes PMC roles/committer status (layer
   decline a nomination.
 - **Volunteer constraint shapes rotation.** All roles here are unpaid.
   Terms should be staggered (like board classes — not everyone rotating
-  out at once) rather than the Chair's monthly graduation-outreach
-  cadence: CoC casework benefits from institutional memory of prior
-  incidents/patterns in a way outreach emails don't, but the same
-  anti-burnout, anti-capture logic still argues for guaranteed turnover.
+  out at once) rather than a short, uniform monthly rotation: CoC
+  casework benefits from institutional memory of prior incidents/patterns
+  in a way a faster handoff wouldn't, but the same anti-burnout,
+  anti-capture logic still argues for guaranteed turnover.
 - **No-fault exit, explicitly.** Nobody can be compelled to keep doing
   unpaid, emotionally heavy, confidentiality-bound work. Stepping down
   must be trivial and stigma-free, same principle as the no-fault PMC
@@ -353,8 +352,7 @@ wiki edit rights). Explicitly excludes PMC roles/committer status (layer
 action, duration, general category (not full narrative) — visible only to
 the rotating team and relevant officers. Same minimal-data-footprint
 principle as guardrail #7 in [[comdev-university-membership-pipeline]].
-Quarterly aggregate counts (no case detail) reported out, matching the
-Chair's plan's reporting rhythm. **Additionally (2026-07-30):** the Board
+Quarterly aggregate counts (no case detail) reported out. **Additionally (2026-07-30):** the Board
 has standing access to the underlying case records with PII obfuscated —
 not just the aggregate counts — specifically so it can directly observe
 patterns or complaints about the team's own conduct, rather than relying
@@ -714,68 +712,20 @@ measures, etc.): ASF can only action its own spaces, roles, events, and
 membership status — it should only *claim* jurisdiction it can actually
 exercise.
 
-## Related: the Chair's own strategic plan retains a CoC working group
+## Editorial note: attribution of recurring design principles
 
-See [[comdev-2-year-strategic-plan]] — a ComDev strategic-plan draft
-authored by the same ComDev PMC Chair this thread is with, which retains
-a `wg-code-of-conduct` working group under its "governance reboot" of
-ComDev working groups. Formal PMC adoption status is unconfirmed, and no
-chair is currently known for that working group — but since the Chair
-wrote the plan, that's a natural, easy thing to ask about directly, and
-if the working group is live it's a more natural operational home for
-turning this thread's layer-1/layer-2 mechanics into an actual proposal
-than routing everything through the Chair informally.
-
-## Potential guardrails, inferred from the Chair's own strategic plan (unconfirmed — validate directly)
-
-The Chair hasn't stated explicit wishes or red lines for the CoC redraft
-directly. In the absence of that, the following are inferred from
-recurring design patterns in [[comdev-2-year-strategic-plan]] — the
-Chair's own document — treated as **candidate guardrails to propose and
-confirm**, not settled requirements:
-
-- **No single-person dependency.** The plan explicitly diagnoses a prior
-  ComDev initiative's collapse as caused by "single-person dependence,"
-  and designs around it everywhere (graduation-email duty rotates across
-  3–5 PMC members monthly; working-group ownership is distributed rather
-  than centralized). Applied here: avoid concentrating CoC intake/response
-  in one officer (today it's just the President/EVP/VP D&I) — prefer a
-  small rotating group. This also happens to reduce the single-point
-  burnout risk a real "committee with teeth" would otherwise create for
-  whoever sits on it.
-- **Named owner, clear deliverables, sunset/review clause — no indefinite
-  standing bodies.** The plan's "governance reboot" requires this of every
-  working group. Applied here: any CoC committee or process should have a
-  named chair and a periodic review point (e.g., annual), not be chartered
-  as permanent-and-unquestioned from day one.
-- **Work inside the existing `wg-code-of-conduct` structure rather than
-  inventing a new body.** The plan already retains this working group.
-  Applied here: layer-1/layer-2 mechanics (see above) probably belong
-  there rather than in a newly-invented committee — reinforces the
-  cross-reference above.
-- **No new budget outlay, volunteer-driven.** Every pillar in the plan is
-  either $0 or modest and grant/event-specific; the Infrastructure &
-  Tooling pillar explicitly leans on existing ASF Infra at no incremental
-  cost. Applied here: prefer mechanics that reuse existing infra (mailing
-  lists, existing officer roles, existing PMC processes) over anything
-  implying new paid roles or tooling spend.
-- **Concrete, templated, step-by-step process documents over principle
-  statements.** The plan's graduation-outreach section is a literal
-  numbered template, not a value statement — consistent with the Chair
-  favoring exactly the kind of procedural specificity this whole CoC
-  thread is trying to add. Weak evidence the Chair will be receptive to a
-  templated "how" document, not just supportive of the goal in the
-  abstract.
-- **Defined reporting/review cadence.** The plan leans heavily on
-  quarterly/monthly check-ins and board reporting rather than "set and
-  forget" policy. Applied here: a CoC process revision might want a
-  built-in periodic report (e.g., quarterly aggregate count of
-  layer 1–3 actions taken, no case detail) rather than being silent on
-  its own review cycle.
-
-None of these are confirmed. Next real conversation with the Chair should
-either validate or discard each one explicitly, rather than this list
-quietly hardening into an assumed requirement.
+Several design principles recur throughout this document: avoiding
+single-person dependency in CoC intake/response, staggered/rotating
+terms, a named point of contact without sole decision authority, a
+sunset/review clause rather than an indefinite standing body, working
+inside the existing `wg-code-of-conduct` structure rather than inventing
+a new one, minimizing new budget/tooling asks, and preferring concrete,
+templated process documents over principle statements. These reflect the
+current ComDev PMC Chair's own stated governance preferences and design
+opinions, expressed directly in conversation with the author — they are
+not confirmed ComDev PMC or Board requirements, and should be treated as
+candidate guardrails to validate with the Chair (and, where relevant, the
+wider PMC or Board) rather than as settled constraints.
 
 ## External gap review of the draft policy text (2026-07-31)
 
@@ -836,9 +786,15 @@ a seed, rather than drafting the rubric from nothing.
   something to quietly drop — gates layer-1-vs-2 routing throughout this
   entire framework. Called out explicitly as the top item of remaining
   *human* (not legal, not mechanical) work.
-- **Target: a proposal drawn from this doc is intended for submission at
-  the ASF Board meeting on 2026-08-19** (confirmed 2026-07-30; confirmed
-  to be the Board specifically, not just a ComDev PMC meeting).
+- ~~**Target: a proposal drawn from this doc is intended for submission at
+  the ASF Board meeting on 2026-08-19**~~ **Superseded (2026-07-31):** the
+  Chair's actual resolution text instead adopts the pre-existing cwiki
+  draft ("the September 2025 wiki draft" / v13, Contributor Covenant
+  v2.1-adapted) as the complete, replacement CoC — not a text drawn from
+  this document. See [[comdev-coc-v13-proposed-changes]] for the
+  resulting near-term work: proposed edits to that draft, reusing this
+  document's already-completed legal research, rather than continued
+  drafting here toward its own submission.
 - ~~Whether a new VP Legal has been seated yet~~ **Resolved (2026-07-30)
   — yes,** and a direct conversation has now happened — see "Questions
   for the VP Legal" below for the full answer set.

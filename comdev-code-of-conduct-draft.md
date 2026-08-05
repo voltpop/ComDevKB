@@ -1,7 +1,7 @@
 ---
 title: ASF Code of Conduct — enforcement framework (ComDev draft proposal)
 compiled: 2026-07-30
-status: draft — ComDev input prepared for Board consideration; not yet adopted
+status: draft — not yet adopted; not the Board's 2026-08-19 submission vehicle (see 2026-07-31 update below)
 source: derived from comdev-code-of-conduct-revision.md
 ---
 
@@ -17,6 +17,22 @@ text, or by directing the President to adopt and publish it under
 existing presidential authority. Sections marked **[OPEN]** are not yet
 resolved and should not be read as ComDev's final position on those
 points.
+
+**Update (2026-07-31):** the ComDev PMC Chair's actual resolution for the
+2026-08-19 Board meeting instead proposes adopting a separate,
+pre-existing document as the complete, replacement Code of Conduct text
+(Exhibit A) — the cwiki "Apache Software Foundation Code of Conduct Draft
+WIP," a Contributor Covenant v2.1 adaptation last revised 2025-09-09,
+referred to elsewhere in this KB as "the September 2025 wiki draft" and
+internally as v13. That document supersedes the existing CoC outright
+rather than adding procedure to it, which is this framework's approach.
+This framework is **not** currently the Board's submission vehicle. Its
+most concrete near-term use is as the source of already-completed legal
+research now applied directly against the cwiki draft in
+[[comdev-coc-v13-proposed-changes]]; longer-term, the layer 1–4 mechanics
+below remain a candidate for a companion "Enforcement Procedures"
+document if the Board wants more operational detail than v13's ladder
+provides on its own (see that file's "Structural suggestion" section).
 
 ---
 
