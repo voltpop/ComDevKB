@@ -45,3 +45,11 @@ conversation. Before writing or committing content:
 
 One file per topic/workstream, `kebab-case-name.md`, at the repo root
 unless a clear subdirectory grouping emerges.
+
+## Git workflow
+
+- Before pushing a new commit onto an existing branch that backs an open
+  PR, verify the PR still exists and is still open (e.g. `gh pr view`).
+  It may have already been merged since you last checked — pushing more
+  commits to an already-merged branch either silently reopens it or
+  lands the commit somewhere nobody's looking for it.
