@@ -53,3 +53,16 @@ unless a clear subdirectory grouping emerges.
   It may have already been merged since you last checked — pushing more
   commits to an already-merged branch either silently reopens it or
   lands the commit somewhere nobody's looking for it.
+- Only commit or push when the user explicitly asks. Don't take it upon
+  yourself to commit "while you're at it."
+- Never force-push, skip hooks (`--no-verify`), bypass signing, or amend
+  a commit that's already been pushed/shared — create a new commit
+  instead.
+- Run `git status` before any command that could discard uncommitted
+  work (`checkout`/`restore`/`reset --hard`/`clean`), and prefer a
+  reversible step (stash, rename, move aside) over a destructive one
+  when you're not sure whether something is safe to lose.
+- Deleting a branch, force-pushing, or other hard-to-reverse/shared-state
+  actions need explicit confirmation in the moment — an earlier approval
+  for a similar action doesn't carry forward automatically.
+- Never edit git config.
