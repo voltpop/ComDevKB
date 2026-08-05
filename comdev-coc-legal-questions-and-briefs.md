@@ -9,6 +9,12 @@ status: research briefs — not legal advice; primary sources cited throughout f
 Companion to [[comdev-code-of-conduct-revision]]. That document's open
 legal items were consolidated into the questions below.
 
+**Note (2026-07-31):** "the September 2025 wiki draft" referenced in Q9
+and Q11 below is the same document the ComDev PMC Chair's resolution now
+proposes adopting outright as the Board's Code of Conduct (cwiki v13).
+Q9 and Q11's findings are applied directly as proposed edits to that
+draft in [[comdev-coc-v13-proposed-changes]].
+
 ---
 
 ## Q1 — Can the Board delegate §4.7 membership-discipline to a committee by resolution?
