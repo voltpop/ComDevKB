@@ -20,11 +20,20 @@ last_modified: 2026-08-19
       title-based false positive removed — `privacy_project_websites`
       is the same doc as Rich's "ASF Website Privacy Policy" — and one
       new gap found — `incubator` itself, not just
-      `incubator_ip_clearance`). Also found the reverse: ~13 documents
-      in Rich's index with no PolicyMCP key, so neither source is a
-      superset. Full detail in
+      `incubator_ip_clearance`). Full detail in
       [[docs-and-policies-policy-inventory]]'s "Gap list — verified"
       section.
+- [x] **Verify the reverse gap** (Rich's index → PolicyMCP) — resolved
+      2026-08-19 via `search_policies` content checks, not just the
+      absent-key list. Of the ~13 candidates, **12 confirmed genuinely
+      absent** from PolicyMCP (Infra Team CoC, DMCA agent, Export
+      Control page, Social Media Best Practices, Logo Usage Policy,
+      Naming Policy, Trademark Reporting, Project Minimum Requirements,
+      Board Escalation Guide, Conference Policy, Giveaway Rules,
+      Officer Speaking Guide) and **1 corrected** — the mailing-list-naming
+      anchor is already inside the `pmc` key, just not broken out.
+      Confirms neither source is a superset of the other. Same section
+      as above.
 - [ ] Ask Justin McClean (VP Legal, PolicyMCP's author) whether he's the
       same "new VP Legal" already in direct contact per
       [[code-of-conduct]]'s "Questions for the VP Legal" section — not
