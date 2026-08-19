@@ -4,6 +4,7 @@ project: docs-and-policies
 compiled: 2026-08-19
 status: new — open-ended effort, no fixed end-state; three co-owners assigned, scope not yet broken down
 owners: Brian Proffit (BKP), Andrew Wetmore, Drew Foulks (dfoulks)
+last_modified: 2026-08-19
 ---
 
 New effort raised 2026-08-19: organize ComDev's real, community-facing
@@ -35,8 +36,16 @@ here, or whether this stays a single overview until scope sharpens).
 
 ## Open / unresolved
 
+- **Resolved 2026-08-19 — see [[docs-and-policies-policy-inventory]]:**
+  Rich Bowen (confirmed ComDev PMC Chair) opened `apache/www-site#725`
+  the same day, proposing a consolidated `/policy` page listing every
+  policy found across the ASF website. Direction set: this effort uses
+  Rich's index as its starting baseline and hunts for what's missing,
+  rather than building an independent inventory from scratch.
 - What's actually in scope — which docs, which policies, sourced from
-  where (community.apache.org, cwiki, per-program pages)?
+  where (community.apache.org, cwiki, per-program pages)? Partial answer
+  now in [[docs-and-policies-policy-inventory]] (the ASF Board policies
+  page, 12 sections) — not yet reconciled against PR #725's coverage.
 - How the three co-owners split the work, and whether one of them chairs
   it.
 - Relationship to [[2-year-strategic-plan]]'s working-group reboot

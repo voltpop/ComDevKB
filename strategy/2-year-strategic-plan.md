@@ -1,23 +1,26 @@
 ---
 title: ComDev 2-year strategic plan — six pillars, budget, working-group governance reboot
 compiled: 2026-07-30
-status: the ComDev PMC Chair's own draft plan; formal PMC adoption status not yet confirmed
+status: Rich Bowen's (ComDev PMC Chair) own draft plan; formal PMC adoption status not yet confirmed
 source: https://hackmd.io/@rbowen/SyglSEYrzl
+last_modified: 2026-08-19
 ---
 
 # ComDev 2-year strategic plan (ingested reference)
 
-This is a ComDev strategic-plan draft authored by **the ComDev PMC
-Chair** — the same Chair the author is working with on
-[[code-of-conduct]] — found on HackMD and pulled into
-this KB as reference material. It's directly relevant to that other
-thread: it retains a **`wg-code-of-conduct`** working group, a likely
-operational home for the CoC enforcement-specificity work. Since it's the
-Chair's own plan rather than a third-party proposal, it's reasonable to
-ask the Chair directly about its status, rather than treating it as
-outside material to independently vet. Whether/when the ComDev PMC has
-formally adopted it is still unresolved — check before treating any of
-its numbers or structure as current commitments.
+This is a ComDev strategic-plan draft authored by **Rich Bowen, the
+ComDev PMC Chair** (confirmed via the `@rbowen` HackMD handle in the
+source URL, and matching the same Rich Bowen who opened
+`apache/www-site#725` and authored the [[ambassador-program]] draft) —
+found on HackMD and pulled into this KB as reference material. It's
+directly relevant to the Code of Conduct thread ([[code-of-conduct]]):
+it retains a **`wg-code-of-conduct`** working group, a likely
+operational home for the CoC enforcement-specificity work. Since it's
+Rich's own plan rather than a third-party proposal, it's reasonable to
+ask him directly about its status, rather than treating it as outside
+material to independently vet. Whether/when the ComDev PMC has formally
+adopted it is still unresolved — check before treating any of its
+numbers or structure as current commitments.
 
 **Ingestion-fidelity note:** repeated fetches of the source page returned
 slightly inconsistent structural details (pillar count and exact ordering

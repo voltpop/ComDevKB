@@ -41,6 +41,18 @@ Still avoid regardless of the above:
 - When editing an existing file, scrub any session metadata you find in
   it as part of the edit, even if that wasn't the primary request.
 
+## Sourcing constraint: private mailing lists
+
+Per the ASF committers repo's own `docs/mailinglists.txt`: **never copy
+or forward content from an internal or privately archived mailing list
+(board@, private@, trademarks@, and similar) into this KB without
+permission from the sender.** This is independent of the names policy
+above — it's about the *source*, not the *content*. `dev@` lists (like
+`dev@community.apache.org`, already cited in
+[[contributor-role-promotion-language]]) are public and fine. If a claim
+can only be sourced from a private list, say so and leave the actual
+content out rather than paraphrasing it in enough detail to reconstruct.
+
 ## Structure
 
 - Frontmatter: `title`, `compiled` (date — set once, a point-in-time
