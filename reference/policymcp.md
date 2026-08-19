@@ -109,6 +109,34 @@ Domestication and Transfer, Miscellaneous Provisions)
   coverage here could serve as a live, queryable cross-check for that
   doc's Delaware nonstock/501(c)(3) research, rather than relying on
   manually-sourced citations.
-- **Potential `kb-verify` system**, per `KB-Skills.md`'s table — a
-  `policymcp` system/tool row alongside `github`/`confluence`/`ponymail`,
-  if this KB ever gets MCP access to it.
+- **`kb-verify` system row**, per `KB-Skills.md`'s table — a `policymcp`
+  row alongside `github`/`confluence`/`ponymail`, now live (see below).
+
+## Connection status — live as of 2026-08-19
+
+A local clone already existed at `/home/dfoulks/local/PolicyMCP`
+(predates this KB's discovery of the tool). Pulled to latest
+(`11df02f`, adds the Delaware GCL content and a BM25-based search/scoring
+rewrite over the initial title-match version), re-synced with `uv sync`,
+and registered as a global MCP server (`policymcp`, alongside
+`jira`/`github`/`confluence`) in `~/.claude.json`:
+
+```json
+"policymcp": {
+  "type": "stdio",
+  "command": "uv",
+  "args": ["run", "--directory", "/home/dfoulks/local/PolicyMCP", "asf-policy-mcp"]
+}
+```
+
+Smoke-tested directly (`uv run python -c "..."` against
+`asf_policy_mcp.server.mcp`) — confirms all four tools
+(`list_policies`, `get_policy`, `search_policies`, `refresh_cache`) load
+correctly. **Requires a Claude Code session restart** to actually appear
+as a callable tool — MCP servers connect at startup, so this session
+registered it but can't call it yet.
+
+Once connected, the ~25-item title-based gap list in
+[[docs-and-policies-policy-inventory]] can be verified for real —
+`get_policy`/`search_policies` against each candidate key instead of
+guessing from titles alone.

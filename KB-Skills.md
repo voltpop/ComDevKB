@@ -135,6 +135,7 @@ Same mechanism as infra-aikb, minus the Jira-epic-tracking use case.
 | `github` | `get_file`, `get_issue`, `get_pull_request` | e.g. checking whether a linked working-group proposal PR is still open |
 | `confluence` | `get_page` | the CoC v13 draft is a real cwiki page — this is how its "last updated" claim gets re-checked |
 | `ponymail` | `get_email` | dev@ mailing-list thread state, e.g. whether a discussion actually reached resolution |
+| `policymcp` | `get_policy`, `search_policies` | Justin McClean's independent MCP server, 73 ASF policy docs + Delaware GCL — see [[policymcp]]. Connected 2026-08-19, takes effect after a session restart. |
 
 1. Find every checkable claim's citation tag (adopt the same
    `<!-- kb-verify: system=... ref=... field=... value=... checked=...

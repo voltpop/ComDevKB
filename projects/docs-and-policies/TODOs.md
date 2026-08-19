@@ -24,7 +24,10 @@ last_modified: 2026-08-19
       the same page. Working theory: this may be the effort's real
       value-add over PR #725, since Rich's index looks scoped to
       `www.apache.org` and PolicyMCP additionally covers
-      `infra.apache.org`.
+      `infra.apache.org`. **PolicyMCP is now connected as a live MCP
+      server** (see [[policymcp]]'s "Connection status" section) — this
+      can move from title-guessing to real `get_policy`/`search_policies`
+      calls once a session restart picks up the new connection.
 - [ ] Ask Justin McClean (VP Legal, PolicyMCP's author) whether he's the
       same "new VP Legal" already in direct contact per
       [[code-of-conduct]]'s "Questions for the VP Legal" section — not
