@@ -2,6 +2,7 @@
 title: PolicyMCP — Justin McClean's MCP server for ASF policy Q&A
 topics: [tooling, ai-agents, governance]
 compiled: 2026-08-19
+last_modified: 2026-08-19
 ---
 
 <https://github.com/justinmclean/PolicyMCP> — an independent MCP server
