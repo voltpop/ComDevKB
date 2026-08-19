@@ -145,6 +145,21 @@ page one input among several the effort organizes? Doing parallel,
 uncoordinated inventory work risks duplicating exactly what PR #725
 already did.
 
+## A category to watch for: committer-only supplements to public policies
+
+Checked the ASF committers-private SVN repo (2026-08-19) for anything
+this effort should be aware of. Nothing there belongs in this KB or in
+Rich's public index — most of it is superseded/historical or genuinely
+sensitive (trademark-dispute case files, executed legal agreements,
+vendor-donated licenses) — but one real pattern surfaced: **some public
+policies have a committer-only operational supplement**, e.g. VP Brand
+Management maintains private guidance for PMCs on evaluating third-party
+trademark permission requests, layered on top of the public trademark
+policy already in Rich's index. Don't reproduce that content here — the
+point is just that "the public index is the complete picture" may not
+always hold, so double-check with the relevant officer/VP before
+assuming a gap in Rich's list means the policy doesn't exist anywhere.
+
 ## Open questions
 
 - Has anyone on the docs-and-policies effort seen PR #725 yet?
