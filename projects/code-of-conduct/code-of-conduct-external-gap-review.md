@@ -1,7 +1,7 @@
 ---
 title: External gap review of the CoC enforcement draft
 compiled: 2026-07-31
-status: received and triaged — most items resolved same-day; see [[comdev-code-of-conduct-revision]]
+status: received and triaged — most items resolved same-day; see [[code-of-conduct]]
 source: received as an unformatted plain-text message (a flat list of dashed
   points, no headers or markdown); reformatted here into a numbered list for
   the KB, content otherwise unchanged from the original
@@ -9,7 +9,7 @@ source: received as an unformatted plain-text message (a flat list of dashed
 
 # External gap review of the CoC enforcement draft
 
-Feedback on [[comdev-code-of-conduct-draft]] from a reviewer with legal
+Feedback on [[code-of-conduct-enforcement-draft]] from a reviewer with legal
 context, sent directly rather than through the outside-counsel track. The
 reviewer noted they weren't sure how the draft itself was generated, and
 that their own separate CoC draft covers some of the same gaps.
@@ -76,4 +76,4 @@ scope-of-application language, added the same day). Items 1, 3, 4, 9,
 additions/corrections. Items 6, 7, 8, and 13 remain open as genuine
 judgment calls needing further design or Board/Infra input, not bugs.
 Full triage detail: "External gap review of the draft policy text
-(2026-07-31)" in [[comdev-code-of-conduct-revision]].
+(2026-07-31)" in [[code-of-conduct]].

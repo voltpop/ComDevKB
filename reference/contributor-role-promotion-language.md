@@ -1,5 +1,6 @@
 ---
 title: Is "promotion" the right word for committer/PMC roles? (dev@community.apache.org thread)
+topics: [governance, terminology]
 compiled: 2026-08-04
 source: dev@community.apache.org thread, "Is the Committer/PMC member role a promotion for contributors?" (2026-07-22 to 2026-08-03)
 status: notes — thread summary plus a first-pass synthesis (2026-08-04);
@@ -117,7 +118,7 @@ not personal elevation).
 
 This lines up with the same distinction reached independently while
 grounding committer-vs-PMC-member in the official ASF docs (see
-[[comdev-outreach-identity]]'s "recurring pattern" table): committer
+[[outreach-identity]]'s "recurring pattern" table): committer
 status is an individual, narrow, functional grant; PMC membership is
 joining a collective governance/accountability body. The thread's fault
 line is really about how to *narrate* that structural fact, not a
@@ -126,7 +127,7 @@ disagreement about the structure itself.
 **Flagged for later refinement, not resolved here:** whether ComDev
 should pick a side of that fault line for its own guidance/messaging, or
 deliberately hold both (state the structural facts plainly, e.g. via
-[[comdev-outreach-identity]], and leave the "is it a promotion"
+[[outreach-identity]], and leave the "is it a promotion"
 narration question to individual PMCs/communities as the thread's own
 "gravity model" reframing suggested).
 

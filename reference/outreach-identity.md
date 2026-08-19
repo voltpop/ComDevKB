@@ -1,12 +1,13 @@
 ---
 title: ComDev outreach identity — what we offer as a collective, and how current efforts express it
+topics: [outreach, identity, governance]
 compiled: 2026-08-04
 status: draft — first pass, grounded in ComDev's real charter/programs
 ---
 
-Companion to [[comdev-university-membership-pipeline]] (the campus
+Companion to [[university-outreach]] (the campus
 program, one channel this doc situates) and
-[[comdev-contributor-role-promotion-language]] (the mailing-list thread
+[[contributor-role-promotion-language]] (the mailing-list thread
 whose conclusion — committer/PMC status as *individual technical trust*
 vs. *collective governance accountability*, never something ComDev
 itself grants — turned out to be one small, concrete instance of a
@@ -46,9 +47,9 @@ up every time:
 | Program | What ComDev provides | Who holds real authority/status |
 |---|---|---|
 | GSoC | Coordination: Jira tracking, mentor guides, proposal-review admin, Google liaison | The hosting project mentors and community — ComDev's own docs say it "facilitates connections... rather than managing mentoring relationships directly" |
-| Contributor Ladder / committer & PMC guidance | The documented pathway and process templates | The hosting PMC's own vote (3 +1s, no vetoes) — see [[comdev-contributor-role-promotion-language]] |
+| Contributor Ladder / committer & PMC guidance | The documented pathway and process templates | The hosting PMC's own vote (3 +1s, no vetoes) — see [[contributor-role-promotion-language]] |
 | Travel Assistance Committee (TAC) | Funds/arranges travel and lodging | Not a subsidy — recipients must **volunteer at the event** (setup, registration desk, speaker intros, teardown) in exchange; merit- and geography-weighted selection |
-| University/campus program (in design) | Template layer: Apache Way training, pre-cleared trademark packet, event templates, aggregated good-first-issues | The **hosting PMC**, opt-in only, retains 100% of committer/PMC nomination authority — see [[comdev-university-membership-pipeline]] |
+| University/campus program (in design) | Template layer: Apache Way training, pre-cleared trademark packet, event templates, aggregated good-first-issues | The **hosting PMC**, opt-in only, retains 100% of committer/PMC nomination authority — see [[university-outreach]] |
 | API-first community data access (e.g. mail-archive tooling) | Articulates cross-community demand for structured data access, and mobilizes volunteers (GSoC, working groups) to build interfaces once one exists | **Infra** — the only party positioned to safely expose the API (production data, access control, security boundary); see "A sharper edge" below |
 
 The throughline: **ComDev's offer is never "join us and we'll grant you
@@ -58,7 +59,7 @@ funding is conditioned on volunteering, not given freely — but it's the
 same idea as a hosting PMC's committer vote, just at a different scale.
 
 This is also why "promotion" language kept causing trouble in the
-mailing-list thread ([[comdev-contributor-role-promotion-language]]): a
+mailing-list thread ([[contributor-role-promotion-language]]): a
 "promotion" implies a single body doing the elevating. Nothing in
 ComDev's actual structure works that way — there's no central authority
 positioned to "promote" anyone into anything. Status is always earned
@@ -84,7 +85,7 @@ The important part isn't the API itself — it's that **ComDev doesn't
 hold any authority over Infra's roadmap, but can still shape what Infra
 prioritizes day to day**, by articulating concrete downstream demand
 (dashboards, contributor/mentoring visibility, chapter-health tracking —
-recurring needs across [[comdev-university-membership-pipeline]] and
+recurring needs across [[university-outreach]] and
 this doc) and by having the volunteer pipeline (GSoC, working groups,
 the university program) ready to actually build against an API the
 moment it exists. That's a distinct mechanism from "build a template
@@ -95,7 +96,7 @@ demonstrated need and follow-through capacity, not delegated authority.
 Concrete proof this already works, independent of any new advocacy: a
 Pony Mail Foal-style API already exists and was used directly, live, in
 the 2026-08-04 conversation that produced
-[[comdev-contributor-role-promotion-language]] — a working research tool
+[[contributor-role-promotion-language]] — a working research tool
 built entirely outside Infra, on data Infra was never asked to design a
 UI for. The mechanism isn't hypothetical; it already happened once,
 by accident, the moment the API was available to query.
@@ -114,7 +115,7 @@ Code/event presence are real ComDev functions too, but are ancillary to
 current focus and not elaborated here.
 
 **University / campus program** — the new flagship effort. Full
-target-state design in [[comdev-university-membership-pipeline]]: a
+target-state design in [[university-outreach]]: a
 template layer ComDev builds once, an instance layer per campus, PMC
 hosting as opt-in, GSoC as the natural summer bridge. Its core identity
 claim, sharpened by the committer/PMC breakdown: what it offers a student
@@ -155,5 +156,5 @@ or university-program design work.
   PMC member and intends to raise it at the next ComDev office hours,
   rather than as a mailing-list thread — captured here so the reasoning
   survives until that meeting happens. See
-  [[comdev-community-knowledge-agent-tooling]] for a 2026-08-05 external
+  [[community-knowledge-agent-tooling]] for a 2026-08-05 external
   data point (an AWS precedent) supporting the same push.

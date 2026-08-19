@@ -1,5 +1,6 @@
 ---
 title: ComDev Code of Conduct revision — adding enforcement specificity within Delaware nonstock/501(c)(3) constraints
+project: code-of-conduct
 compiled: 2026-07-30
 status: living document — in progress, more sessions to be folded in
 ---
@@ -250,7 +251,7 @@ wiki edit rights). Explicitly excludes PMC roles/committer status (layer
 - **No-fault exit, explicitly.** Nobody can be compelled to keep doing
   unpaid, emotionally heavy, confidentiality-bound work. Stepping down
   must be trivial and stigma-free, same principle as the no-fault PMC
-  hosting exit in [[comdev-university-membership-pipeline]] — the
+  hosting exit in [[university-outreach]] — the
   alternative is the team silently re-concentrating into whoever's
   still willing, recreating the single-person-dependence failure mode
   this design exists to avoid.
@@ -351,7 +352,7 @@ wiki edit rights). Explicitly excludes PMC roles/committer status (layer
 **Recordkeeping and reporting:** minimal, private logging — date, space,
 action, duration, general category (not full narrative) — visible only to
 the rotating team and relevant officers. Same minimal-data-footprint
-principle as guardrail #7 in [[comdev-university-membership-pipeline]].
+principle as guardrail #7 in [[university-outreach]].
 Quarterly aggregate counts (no case detail) reported out. **Additionally (2026-07-30):** the Board
 has standing access to the underlying case records with PII obfuscated —
 not just the aggregate counts — specifically so it can directly observe
@@ -545,7 +546,7 @@ pulling commit karma. Explicitly **excludes PMC chair** (moved to layer 3
 — see above) and anything touching ASF Membership (layer 4).
 
 **Core principle — referral, not execution.** Carries over directly from
-the existing guardrail in [[comdev-university-membership-pipeline]] ("all
+the existing guardrail in [[university-outreach]] ("all
 committer/PMC-member nomination decisions stay 100% with the hosting
 PMC... the program has zero authority there"). The CoC process cannot
 execute a layer-2 action. It can only **require the PMC to take the
@@ -578,7 +579,7 @@ Apache norm already, worth stating explicitly here.
 **Open: what if the PMC declines to act?** No defined escalation yet for
 a PMC that receives a substantiated referral and simply doesn't act — the
 same shape of unresolved problem as the "chapter failure modes / off-ramps"
-gap in [[comdev-university-membership-pipeline]]. Likely traces back to
+gap in [[university-outreach]]. Likely traces back to
 the Board's reserve authority over any PMC, but unconfirmed.
 
 **Infra angle — lighter than layer 1.** Unlike layer 1, this likely needs
@@ -626,12 +627,12 @@ the Board is the only body with authority over the President/EVP — so
 this is a two-sentence CoC addition, no bylaws dependency. Non-chair
 officer *removal* mechanics (§6.5: total Board discretion, no defined
 process) remain the separate, still-open piece — see
-[[comdev-coc-legal-questions-and-briefs]] Q8.
+[[code-of-conduct-legal-questions-and-briefs]] Q8.
 
 ## Layer 4 mechanics: ASF-Membership-level action (draft — enriched
 2026-07-30 with existing-mechanism detail; corrected and substantially
 resolved 2026-07-31 by research briefs in
-[[comdev-coc-legal-questions-and-briefs]])
+[[code-of-conduct-legal-questions-and-briefs]])
 
 Scope: termination or involuntary emeritus conversion, locked to Bylaws
 §4.7's two-thirds membership vote. Deliberately kept thin per the working
@@ -658,7 +659,7 @@ a lower (majority, not two-thirds) bar than the vote that converted them
 out, but a real gate, not an automatic reversal.
 
 **Resolved (2026-07-31) — see
-[[comdev-coc-legal-questions-and-briefs]] Q1, Q2, Q7:**
+[[code-of-conduct-legal-questions-and-briefs]] Q1, Q2, Q7:**
 - The Board *can* reach delegation of §4.7-adjacent authority, but only
   via its unilateral bylaws-amendment power (Art. X), not an ordinary
   resolution — and doing so would be politically explosive (stripping the
@@ -683,7 +684,7 @@ briefs Q10) hasn't been addressed anywhere in this framework yet and
 should be before the reporter-attribution tracker design goes further.
 
 ## Scope of enforcement: off-platform / social-media conduct (new,
-2026-07-31, from [[comdev-coc-legal-questions-and-briefs]] Q11)
+2026-07-31, from [[code-of-conduct-legal-questions-and-briefs]] Q11)
 
 Not previously flagged anywhere in this document — a real gap, not just
 an unresolved detail. The September 2025 wiki draft's scope language
@@ -730,9 +731,9 @@ wider PMC or Board) rather than as settled constraints.
 ## External gap review of the draft policy text (2026-07-31)
 
 A reviewer with legal context sent a 14-point gap analysis of
-[[comdev-code-of-conduct-draft]] directly (their own separate CoC draft
+[[code-of-conduct-enforcement-draft]] directly (their own separate CoC draft
 apparently covers some of the same ground) — full list preserved in
-[[comdev-coc-draft-external-gap-review]]. Triaged:
+[[code-of-conduct-external-gap-review]]. Triaged:
 
 **Already resolved before this review landed:** the scope-of-application
 gap they flagged was already added the same day (Section 4's "Scope of
@@ -791,7 +792,7 @@ a seed, rather than drafting the rubric from nothing.
   Chair's actual resolution text instead adopts the pre-existing cwiki
   draft ("the September 2025 wiki draft" / v13, Contributor Covenant
   v2.1-adapted) as the complete, replacement CoC — not a text drawn from
-  this document. See [[comdev-coc-v13-proposed-changes]] for the
+  this document. See [[code-of-conduct-v13-proposed-changes]] for the
   resulting near-term work: proposed edits to that draft, reusing this
   document's already-completed legal research, rather than continued
   drafting here toward its own submission.
@@ -829,7 +830,7 @@ a seed, rather than drafting the rubric from nothing.
   majority member vote. Bylaws delegation authority (Q4), 501(c)(3)
   consistency obligations (Q7), and the document-and-refer committee's
   legal standing (Q8) are now all answered — see
-  [[comdev-coc-legal-questions-and-briefs]] and the updated Layer 4
+  [[code-of-conduct-legal-questions-and-briefs]] and the updated Layer 4
   section above. Still genuinely open: the conduct-action log's
   discoverability/defamation/retention/GDPR exposure (Q10), and the
   off-platform scope gap (Q11, new section above).
@@ -873,7 +874,7 @@ a seed, rather than drafting the rubric from nothing.
   risk if the dataset leaks; review-step reliability risk if closure
   reasons aren't recorded honestly) — flagged, not resolved.
 - ~~Document format itself still needs translation~~ **Addressed
-  (2026-07-30)** — see [[comdev-code-of-conduct-draft]] (standalone
+  (2026-07-30)** — see [[code-of-conduct-enforcement-draft]] (standalone
   policy draft). This working doc remains the fuller design-history
   record behind that artifact.
 
@@ -903,7 +904,7 @@ question list, now annotated with answers from that direct conversation.
    authority to a committee by ordinary Board resolution, or does that
    require a bylaws amendment — and if so, does *amending the bylaws*
    itself need a full membership vote, or just the Board?
-   **Answered 2026-07-31, [[comdev-coc-legal-questions-and-briefs]] Q1:**
+   **Answered 2026-07-31, [[code-of-conduct-legal-questions-and-briefs]] Q1:**
    not by ordinary resolution — but the Board *can* reach it via its own
    unilateral bylaws-amendment power (Art. X), no membership vote required
    for the amendment itself. Politically, though, the Board using that
@@ -931,14 +932,14 @@ question list, now annotated with answers from that direct conversation.
 7. Does 501(c)(3) status impose any obligations relevant here — e.g.,
    around consistent, non-arbitrary enforcement — even though it's not
    the primary constraint?
-   **Answered 2026-07-31, [[comdev-coc-legal-questions-and-briefs]] Q7:**
+   **Answered 2026-07-31, [[code-of-conduct-legal-questions-and-briefs]] Q7:**
    confirmed — essentially nothing. Member discipline is a state-law
    matter; none of the federal exemption tests (private inurement,
    private benefit, §4958, lobbying/campaign limits) touch it.
 8. Does a committee that only *documents a case and refers it* to a
    membership vote (never deciding anything itself) raise any legal issue
    at all, or is that clearly safe under current bylaws?
-   **Answered 2026-07-31, [[comdev-coc-legal-questions-and-briefs]] Q2:**
+   **Answered 2026-07-31, [[code-of-conduct-legal-questions-and-briefs]] Q2:**
    clearly safe — DGCL §141(c)'s committee formality only reaches
    committees exercising board power (deciding, binding, approving); a
    purely advisory investigate-and-refer body exercises none of that.
@@ -968,7 +969,7 @@ question list, now annotated with answers from that direct conversation.
 
 ~~**Still outstanding, needs a follow-up conversation:** Q4, Q7, and Q8~~
 **Resolved 2026-07-31** — full research briefs received and folded in
-above; see [[comdev-coc-legal-questions-and-briefs]] for the complete
+above; see [[code-of-conduct-legal-questions-and-briefs]] for the complete
 answer set (Q1–Q11), including two items not originally asked: the
 2-year-inactivity precedent corrected to ~5 years with an ambiguous
 bylaws mechanism (Q5), and a new off-platform/social-media scope concern

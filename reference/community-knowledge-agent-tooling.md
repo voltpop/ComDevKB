@@ -1,5 +1,6 @@
 ---
 title: Agent-mediated consumption of community discussion channels — AWS precedent and ASF applicability
+topics: [tooling, ai-agents]
 compiled: 2026-08-05
 status: nascent concept — raised in conversation, not yet brought to ComDev PMC or any list
 ---
@@ -10,7 +11,7 @@ status: nascent concept — raised in conversation, not yet brought to ComDev PM
 
 Raised 2026-08-05 in a ComDev knowledge-base drafting session, prompted by
 the session itself using an AI agent to fetch and summarize an ASF
-mailing-list thread (see [[comdev-university-membership-pipeline]] for
+mailing-list thread (see [[university-outreach]] for
 the resulting content).
 
 A ComDev PMC member noted that AWS has an internal open-source
@@ -31,7 +32,7 @@ community-discussion substrate is its mailing lists
 - **ASF:** mailing lists — archived via Pony Mail / lists.apache.org, no
   first-party structured API for third-party tooling today. This is the
   same gap already identified in
-  [[comdev-outreach-identity]]'s "A sharper edge" section: an Infra
+  [[outreach-identity]]'s "A sharper edge" section: an Infra
   committer with prior ComDev PMC service argued Infra's job should be to
   ship *just an API* for mail-archive data, and let ComDev (or anyone)
   build the interface on top of it. That API-first advocacy item is
@@ -53,7 +54,7 @@ None. This is an observation, not a proposal.
 ## Open/unresolved
 
 - Whether ComDev should treat this as supporting evidence for the
-  API-first advocacy push in [[comdev-outreach-identity]], or as a
+  API-first advocacy push in [[outreach-identity]], or as a
   separate, smaller concept (a ComDev-run summarization tool over its own
   mailing lists) worth floating independently.
 - No one has scoped what such a tool would actually need to do for ASF
@@ -62,5 +63,5 @@ None. This is an observation, not a proposal.
   a different traffic pattern and audience (internal, culture/policy
   discussion vs. ASF's public, project-spanning dev lists).
 - Not yet raised with the ComDev PMC, the Infra committer named in
-  [[comdev-outreach-identity]], or on any list — captured here so it
+  [[outreach-identity]], or on any list — captured here so it
   isn't lost before the next office hours.

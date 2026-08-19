@@ -32,19 +32,90 @@ conversation. Before writing or committing content:
 
 ## Structure
 
-- Frontmatter: `title`, `compiled` (date). No session/cwd/author-identity
-  fields.
+- Frontmatter: `title`, `compiled` (date), `status` (free text — this KB
+  favors an informative status line over a rigid enum, since ComDev
+  threads carry more nuance than active/blocked/done). `project:
+  <name>` on any note inside `projects/<name>/`, matching the directory.
+  `topics: [tag, tag]` on any note inside `reference/` — check
+  `Reference.md`'s controlled vocabulary before inventing a new tag. No
+  session/cwd/author-identity fields.
 - Body should capture: context/motivation, decisions made and why,
   explicit rejections (what was considered and ruled out, and why — this
   is often more valuable than the decision itself), and open/unresolved
   items so later work doesn't retread the same ground.
 - Prefer compressed, decision-dense prose over verbatim transcript. Drop
   back-and-forth that didn't change the outcome.
+- Cross-reference other notes inline with `[[note-name]]` (the filename
+  stem, not a path — these are citation tags, not clickable links).
 
-## Adding a new doc
+## Concepts: effort, project, sub-project, milestone
 
-One file per topic/workstream, `kebab-case-name.md`, at the repo root
-unless a clear subdirectory grouping emerges.
+Adapted from `infrastructure-aikb`'s layout. Which one something is
+decides whether it gets its own `projects/<name>/` directory or not:
+
+- **Effort** — an open-ended initiative with no concrete end (e.g. an
+  ongoing advisory function). Never reaches a "done" state. Doesn't need
+  its own directory — a mention inside a related project/reference note
+  is enough.
+- **Project** — an effort **with** a concrete deliverable, even if that
+  deliverable is far off or the work is genuinely ongoing in the
+  meantime (e.g. `code-of-conduct` — Board adoption is the real
+  deliverable, even though revision is a continuous process until then).
+  Gets a `projects/<name>/` directory, an `overview.md`, and a row in
+  `Projects.md`.
+- **Sub-project** — a project nested inside a parent project's scope
+  rather than promoted to its own top-level directory. Lives as a note
+  inside the *parent's* existing directory (e.g. `code-of-conduct`'s
+  `v13-proposed-changes.md` sibling notes). Cross-link it to its parent
+  via `[[wikilink]]`; no separate `Projects.md` row.
+- **Milestone** — a real but small deliverable: a dated checkpoint inside
+  a project's notes, not big enough to need its own file. Written as a
+  heading: `## <subject> — milestone (<date>)`.
+
+## Layout
+
+- `projects/<name>/` — active initiatives with a real (even if distant)
+  deliverable: one `overview.md`, an optional `TODOs.md` for open
+  checklist items, and any sibling/sub-project notes.
+- `archive/<name>/` — closed projects, moved here in full once done. Not
+  deleted — a closed project is still a valid historical record.
+- `reference/` — enduring, non-lifecycle knowledge: standing synthesis
+  or analysis true independent of any one project's status. Flat, no
+  subdirectories — tag with `topics:` instead (see `Reference.md`).
+- `Projects.md` — status index for `projects/`, including whether each
+  has actually been raised with the ComDev PMC yet.
+- `Reference.md` — subject catalog for `reference/`, keyed by its
+  controlled `topics:` vocabulary.
+
+New material goes into whichever bucket fits; if it's genuinely both a
+project deliverable and a standing reference fact, split it rather than
+forcing one file to serve both purposes.
+
+## Weeding and staleness
+
+This KB has no single maintainer and no calendar-driven review cadence,
+so staleness has to be caught deliberately rather than assumed away:
+
+- **Never silently rewrite or delete a doc to reflect new information.**
+  If something is superseded, say so explicitly in the doc (new section
+  or updated `status` line) and point to whatever replaced it, rather
+  than editing the old conclusion out. Point-in-time records stay
+  readable as what was true when they were written; other docs may
+  already `[[link]]` to them.
+- **Mark stale, don't guess-fix.** If a doc reads outdated or a `[[wikilink]]`
+  target no longer exists, flag it in place (or in `Projects.md`'s/
+  `Reference.md`'s staleness watchlist) rather than silently resolving
+  it — filing something as superseded vs. still-relevant is a judgment
+  call for whoever actually knows the current state, not something to
+  auto-fix.
+- **Check for drift before treating a doc as current.** A `status` line
+  that says "not yet raised with the PMC" or "pending X" may be stale by
+  the time it's read again — verify against the actual current situation
+  (ask, check a PR/thread, check office-hours notes) before building on
+  it, rather than trusting the frontmatter forever.
+- Anything flagged this way but not yet resolved belongs in `Projects.md`'s
+  staleness watchlist, so it doesn't just disappear back into the file
+  list.
 
 ## Git workflow
 

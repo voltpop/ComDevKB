@@ -11,7 +11,7 @@ source: reviewed against the actual v13 page text (last updated Sep 09 2025), pa
 
 The Chair's resolution asks the Board to adopt this cwiki page (Exhibit A)
 as the complete, replacement ASF Code of Conduct — a different move from
-[[comdev-code-of-conduct-draft]]'s approach of adding enforcement
+[[code-of-conduct-enforcement-draft]]'s approach of adding enforcement
 procedure to the *existing* CoC's principles. These are surgical
 proposed edits to v13 itself, on the working assumption that v13, not the
 ComDev four-layer framework, is what actually goes to the Board on
@@ -19,8 +19,8 @@ ComDev four-layer framework, is what actually goes to the Board on
 already done — not grafting the full ComDev design onto this page.
 
 `Qn` below refers to a numbered question in
-[[comdev-coc-legal-questions-and-briefs]]; `item N` refers to a numbered
-finding in [[comdev-coc-draft-external-gap-review]].
+[[code-of-conduct-legal-questions-and-briefs]]; `item N` refers to a numbered
+finding in [[code-of-conduct-external-gap-review]].
 
 ## Already solid — no change proposed
 
@@ -32,7 +32,7 @@ finding in [[comdev-coc-draft-external-gap-review]].
   added directly in response to a reviewer's "this reads as guilty until
   proven innocent" concern. This independently resolves gap-review item 1.
 - **The five-tier Community-Impact-per-level language is a usable severity
-  rubric on its own.** [[comdev-code-of-conduct-revision]] flags a
+  rubric on its own.** [[code-of-conduct]] flags a
   severity/routing rubric as the single top-priority remaining
   human-judgment item; v13 already has a working version of exactly that.
   That item can be closed against this text rather than drafted from
@@ -155,7 +155,7 @@ permanent ban against someone with no PMC/committer/member status to
 revoke — no Infra path is named.
 
 Proposed: stand up a `coc@`-style alias (treated as a trivial,
-non-blocking Infra ask in [[comdev-code-of-conduct-revision]]), add or
+non-blocking Infra ask in [[code-of-conduct]]), add or
 link an actual roster for "designated volunteers," and name who holds
 execution authority for actions against a participant with no existing
 role (Infra? the President's office directly?).
@@ -176,7 +176,7 @@ cover — principles, ladder, scope, top-level responsibilities — and
 moving deeper operational mechanics (interim/precautionary measures,
 response-team composition and rotation, recordkeeping, cross-project
 referral protocol — all substantially drafted already in
-[[comdev-code-of-conduct-revision]]) into a separate companion
+[[code-of-conduct]]) into a separate companion
 "Enforcement Procedures" document, PSF-style. This keeps the Board's
 actual vote scoped to something short enough to pass cleanly, while the
 resolution's own "President may amend... substantive changes reported to
@@ -191,5 +191,5 @@ a fresh Board resolution every time.
   directly if it's meant to be binding, not just an FAQ assurance.
 - Whether a fresh legal review is actually needed, given the
   outside-counsel history already on record in
-  [[comdev-code-of-conduct-revision]], is a process question for the
+  [[code-of-conduct]], is a process question for the
   Chair/VP Legal conversation, not a v13 text edit.

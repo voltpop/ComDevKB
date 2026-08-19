@@ -29,7 +29,7 @@ rather than adding procedure to it, which is this framework's approach.
 This framework is **not** currently the Board's submission vehicle. Its
 most concrete near-term use is as the source of already-completed legal
 research now applied directly against the cwiki draft in
-[[comdev-coc-v13-proposed-changes]]; longer-term, the layer 1–4 mechanics
+[[code-of-conduct-v13-proposed-changes]]; longer-term, the layer 1–4 mechanics
 below remain a candidate for a companion "Enforcement Procedures"
 document if the Board wants more operational detail than v13's ladder
 provides on its own (see that file's "Structural suggestion" section).

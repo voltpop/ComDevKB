@@ -6,14 +6,14 @@ status: research briefs — not legal advice; primary sources cited throughout f
 
 # CoC enforcement — legal questions and research briefs
 
-Companion to [[comdev-code-of-conduct-revision]]. That document's open
+Companion to [[code-of-conduct]]. That document's open
 legal items were consolidated into the questions below.
 
 **Note (2026-07-31):** "the September 2025 wiki draft" referenced in Q9
 and Q11 below is the same document the ComDev PMC Chair's resolution now
 proposes adopting outright as the Board's Code of Conduct (cwiki v13).
 Q9 and Q11's findings are applied directly as proposed edits to that
-draft in [[comdev-coc-v13-proposed-changes]].
+draft in [[code-of-conduct-v13-proposed-changes]].
 
 ---
 
@@ -328,7 +328,7 @@ Key sources:
 
 ## Summary table
 
-| Q | Answer | Impact on [[comdev-code-of-conduct-revision]] |
+| Q | Answer | Impact on [[code-of-conduct]] |
 |---|---|---|
 | 1 | No delegation by resolution; but Board can amend bylaws unilaterally (Art. X + Cert. Art. 6) | Reframe: keep document-and-refer |
 | 2 | Document-and-refer clearly safe; manage defamation/access | Membership layer design confirmed |
