@@ -18,5 +18,11 @@ last_modified: 2026-08-19
       (which docs, which policies, sourced from where).
 - [ ] Decide how the three co-owners split the work, and whether one
       chairs it.
-- [ ] Check whether this should route through [[2-year-strategic-plan]]'s
-      `wg-site` working group rather than running independently.
+- [x] Check whether this should route through `wg-site`/`wg-website` —
+      resolved 2026-08-19: yes, likely should. Andrew Wetmore (a
+      co-owner here) is already a `wg-website` member alongside Rich
+      Bowen, and that WG's own charter/WIP list already covers this
+      exact de-duplication scope. Not yet formally coordinated — this
+      is a finding, not an action taken.
+- [ ] Actually reach out to `wg-website` (via Andrew, since he's already
+      a member) to coordinate rather than run in parallel.
