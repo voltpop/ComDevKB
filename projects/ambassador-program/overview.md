@@ -3,6 +3,7 @@ title: Ambassador program — foundation-wide, ComDev-stewarded
 project: ambassador-program
 compiled: 2026-08-19
 status: first draft exists (apache/comdev-working-groups proposed/ambassadors.md) — evaluated 2026-08-19 ahead of ComDev office hours; hybrid-funding refinement proposed, not yet raised with Rich or the PMC
+last_modified: 2026-08-19
 ---
 
 Raised by Ruth (ASF President, ComDev PMC member) as a candidate

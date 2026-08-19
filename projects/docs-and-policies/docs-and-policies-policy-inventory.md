@@ -3,6 +3,7 @@ title: Docs and policies — policy source inventory
 project: docs-and-policies
 compiled: 2026-08-19
 status: initial inventory, two sources scraped — flags active overlapping work, not yet reconciled with the effort's three co-owners
+last_modified: 2026-08-19
 ---
 
 Sub-project note for [[docs-and-policies]] (`projects/docs-and-policies/overview.md`).
