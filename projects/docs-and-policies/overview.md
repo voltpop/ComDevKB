@@ -62,3 +62,12 @@ here, or whether this stays a single overview until scope sharpens).
   coordinating with wg-website rather than running docs-and-policies as
   a fully independent effort looks like the right call — not yet acted
   on, just the direction the evidence points.
+- **Third source found 2026-08-19 — [[policymcp]]:** Justin McClean (VP
+  Legal)'s independent MCP server indexes 73 distinct ASF policy
+  documents plus the full Delaware GCL text — far more granular than
+  either the Board Overview or Rich's index. First-pass gap comparison
+  in [[docs-and-policies-policy-inventory]] surfaces ~25 candidate gaps,
+  mostly `infra.apache.org` content. Working theory: this effort's real
+  value-add over PR #725 may be exactly the infra/sub-policy layer a
+  website-content-scoped index naturally misses. Not yet confirmed
+  item-by-item.
