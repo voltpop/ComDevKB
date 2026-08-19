@@ -19,7 +19,9 @@ give office hours something concrete to react to.
 
 ## Starting shape, per Rich
 
-Rich's framing: the program starts as a place for ambassadors to compare
+Rich Bowen's framing (identity confirmed 2026-08-19 via
+`apache/www-site#725` — see [[docs-and-policies-policy-inventory]]): the
+program starts as a place for ambassadors to compare
 notes and share solutions — a peer knowledge-exchange venue, not (at
 least initially) external evangelism, onboarding mentorship, or a formal
 PMC-liaison structure. This is one person's opening framing, not a
