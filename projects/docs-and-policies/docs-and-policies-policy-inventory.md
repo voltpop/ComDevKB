@@ -2,7 +2,7 @@
 title: Docs and policies — policy source inventory
 project: docs-and-policies
 compiled: 2026-08-19
-status: initial inventory, two sources scraped — flags active overlapping work, not yet reconciled with the effort's three co-owners
+status: three sources scraped, PolicyMCP gap list verified live against Rich's index — flags active overlapping work, not yet reconciled with the effort's three co-owners
 last_modified: 2026-08-19
 ---
 
@@ -210,12 +210,106 @@ policy documents**, vs. the Board Overview's 12 sections and Rich's
 ~40 links. Full detail (tools, install, complete list) in [[policymcp]]
 — this section is just the gap comparison against Rich's index.
 
-### First-pass gap list: PolicyMCP keys not obviously in Rich's index
+### Gap list — verified 2026-08-19 against live PolicyMCP
 
-Title-based comparison only — not yet confirmed that Rich's href for a
-similar-sounding title is actually the same underlying document (e.g.
-`privacy_mailing_lists` vs. Rich's "Mailing List Policy" may or may not
-be the same page). Treat as candidates to verify, not a final diff.
+<!-- kb-verify: system=policymcp ref=list_policies field=url-cross-check value="see gap tables below" checked=2026-08-19 tool=list_policies -->
+
+Superseded the title-based first pass below with a real URL-by-URL
+comparison, now that [[policymcp]] is connected as a live MCP server:
+pulled every PolicyMCP key's actual source URL via `list_policies` and
+checked it against every href in Rich's index (Source 2 above). Two
+corrections came out of doing this for real instead of by title:
+
+- **False positive removed:** `privacy_project_websites` — its URL
+  (`privacy.apache.org/policies/website-policy.html`) is *exactly*
+  Rich's "ASF Website Privacy Policy" link. Same document, different
+  title. Not a gap.
+- **New gap the title pass missed:** `incubator` (Incubator Podling
+  Policies, `incubator.apache.org/policy/incubation.html`) — Rich's
+  index has no Incubator section at all, so even the top-level
+  incubation-policy page is missing, not just `incubator_ip_clearance`.
+
+**Confirmed gaps — PolicyMCP documents with no matching URL anywhere in
+Rich's index (35 total):**
+
+- **Governance/Reporting (4):** `bylaws`, `certificate_of_incorporation`,
+  `project_independence`, `board_reporting`.
+- **Release (4):** `docker_hub`, `release_download_pages`, `nightlies`,
+  `crypto_policy`.
+- **Branding (2):** `trademark_maintenance` (distinct page from Rich's
+  "Trademark Reporting" — different URL, `responsibility.html` vs.
+  `reporting.html`), `podling_branding`.
+- **Events (1):** `event_code_of_conduct` — confirmed genuinely distinct
+  from the Anti-Harassment Policy (different domain entirely:
+  `apachecon.com/conduct.html` vs. `apache.org/foundation/policies/
+  anti-harassment`). Resolves the "unclear if separate" flag from the
+  first pass.
+- **Infrastructure — still the largest gap, 17 documents (not ~15 as
+  first estimated):** `infra_site_ban`, `committer_outreach`,
+  `content_moderation`, `mail_rejection`, `spam_reporting`,
+  `password_policy`, `third_party_services`, `slack_policy`,
+  `sensitive_information`, `github_actions`, `content_security_policy`,
+  `app_upgrade_policy`, `backup_policy`, `os_upgrade_policy`,
+  `vm_policy`, `jira_account_approval`, `jira_account_retention`.
+  Confirmed: Rich's Infrastructure section only lists 3 items
+  (`repo_policy`, `website_policy`, `release_distribution` — all
+  present in PolicyMCP too), everything else on `infra.apache.org`
+  is absent from his index.
+- **Privacy (5, not 6 — see false positive above):**
+  `privacy_contributors`, `privacy_committers`,
+  `privacy_downloadable_products_high`,
+  `privacy_downloadable_products_medium`, `privacy_mailing_lists`.
+  The last one is confirmed genuinely distinct from Rich's "Mailing
+  List Policy" — that's `dev/pmc.html#mailing-list-naming-policy`
+  (ML *naming* rules), while `privacy_mailing_lists` is
+  `privacy.apache.org/policies/mailinglist-policy.html` (ML *privacy*
+  policy). Resolves the ambiguity flagged in the first pass.
+- **Incubator (2):** `incubator` (new finding, see above),
+  `incubator_ip_clearance`.
+
+**Confirmed theory:** every infra.apache.org-hosted document in
+PolicyMCP's set is absent from Rich's index, and Rich's Infrastructure
+section only covers the 3 items already cross-listed. The
+docs-and-policies effort's real value-add over PR #725 is the
+infra.apache.org layer plus the governance/privacy/incubator sub-policies
+above — not a theory anymore, a direct URL-level diff.
+
+**New finding — the reverse gap:** Rich's index also has ~13 documents
+with no matching key in PolicyMCP's 73, meaning neither source is a
+superset of the other:
+
+- Infrastructure Team Code of Conduct (`/dev/infra-coc.html`)
+- DMCA Designated Agent (`/legal/dmca.html`)
+- Export Control / Encryption Policy (`/licenses/exports/`) — distinct
+  from PolicyMCP's `crypto_policy`, which covers cryptography *within a
+  release*, not export-control declarations
+- Social Media Best Practices (`/foundation/marks/socialmedia.html`)
+- Logo Usage Policy (`/foundation/marks/logos.html`)
+- Naming Policy (`/foundation/marks/naming.html`)
+- Trademark Reporting (`/foundation/marks/reporting.html`)
+- Apache Project Minimum Requirements (`/dev/project-requirements.html`)
+- Board Escalation Guide (`/board/escalation.html`)
+- Conference Policy (`/foundation/conferences.html`)
+- Giveaway Rules (`/giveaway-rules/`)
+- Officer Speaking Guide (`/press/guides/officer-speaking-guide.html`)
+- Mailing List (naming) Policy — the `#mailing-list-naming-policy`
+  anchor on the `pmc` page; PolicyMCP indexes `pmc` as one document and
+  doesn't break this section out separately
+
+If `docs-and-policies` ends up building a merged index rather than just
+patching PR #725, these belong in it too — PolicyMCP isn't a full
+replacement for Rich's page, it's complementary.
+
+One unresolved detail, not worth blocking on: `cla_faq`'s PolicyMCP URL
+(`apache.org/foundation/license-faq.html`) differs from Rich's link
+path (`/licenses/cla-faq.html`) — plausibly the same page via a
+redirect, not independently confirmed.
+
+<details>
+<summary>Superseded first-pass (title-based only, kept for the record)</summary>
+
+Original 2026-08-19 pass, before PolicyMCP was connected as a live MCP
+server — comparison was by title/name only, not by URL:
 
 - **Governance/Reporting, missing entirely from Rich's index:** `bylaws`,
   `certificate_of_incorporation`, `project_independence`,
@@ -248,3 +342,5 @@ and several narrower sub-policies neither of the other two sources
 reaches. If confirmed, the docs-and-policies effort's real value-add
 over PR #725 may be exactly this: surfacing the infra.apache.org and
 sub-policy layer that a website-content-focused index naturally misses.
+
+</details>

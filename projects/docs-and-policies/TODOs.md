@@ -14,20 +14,17 @@ last_modified: 2026-08-19
       the index, a hybrid how-to/policy page with real enforcement rules
       (hard deadlines, "no exceptions" rejection criteria). Still to check
       the same way: TAC's page, university-outreach guardrails.
-- [ ] **Verify the PolicyMCP gap list** in
-      [[docs-and-policies-policy-inventory]] — ~25 title-based candidate
-      gaps (mostly `infra.apache.org` content: Slack policy, GitHub
-      Actions, password policy, backups, VM policy, Jira account rules,
-      plus bylaws/certificate-of-incorporation and several privacy
-      sub-policies) against Rich's index. Not yet confirmed these are
-      actually distinct documents, not just differently-titled links to
-      the same page. Working theory: this may be the effort's real
-      value-add over PR #725, since Rich's index looks scoped to
-      `www.apache.org` and PolicyMCP additionally covers
-      `infra.apache.org`. **PolicyMCP is now connected as a live MCP
-      server** (see [[policymcp]]'s "Connection status" section) — this
-      can move from title-guessing to real `get_policy`/`search_policies`
-      calls once a session restart picks up the new connection.
+- [x] **Verify the PolicyMCP gap list** — resolved 2026-08-19 via a real
+      URL-by-URL cross-check (`list_policies` against every href in
+      Rich's index), not just titles. Net result: 35 confirmed gaps (one
+      title-based false positive removed — `privacy_project_websites`
+      is the same doc as Rich's "ASF Website Privacy Policy" — and one
+      new gap found — `incubator` itself, not just
+      `incubator_ip_clearance`). Also found the reverse: ~13 documents
+      in Rich's index with no PolicyMCP key, so neither source is a
+      superset. Full detail in
+      [[docs-and-policies-policy-inventory]]'s "Gap list — verified"
+      section.
 - [ ] Ask Justin McClean (VP Legal, PolicyMCP's author) whether he's the
       same "new VP Legal" already in direct contact per
       [[code-of-conduct]]'s "Questions for the VP Legal" section — not
