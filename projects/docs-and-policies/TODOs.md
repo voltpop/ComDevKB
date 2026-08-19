@@ -9,11 +9,12 @@ last_modified: 2026-08-19
       `/policy` page) — resolved 2026-08-19: use it as the starting
       baseline checklist rather than building an independent inventory.
       See [[docs-and-policies-policy-inventory]].
-- [ ] Find what's missing from Rich's 11-category, ~40-link index —
-      starting hypothesis: ComDev's own program-specific policies (GSoC
-      rules, TAC selection criteria, university-pipeline guardrails)
-      aren't covered, since his index is whole-of-website rather than
-      ComDev-specific. Not yet verified against the actual list.
+- [ ] Find what's missing from Rich's 11-category, ~40-link index. **First
+      confirmed gap, 2026-08-19:** `community.apache.org/gsoc/` — not in
+      the index, a hybrid how-to/policy page with real enforcement rules
+      (hard deadlines, "no exceptions" rejection criteria). See
+      [[docs-and-policies-policy-inventory]]. Still to check the same way:
+      TAC's page, university-outreach guardrails.
 - [ ] Enumerate what's actually in scope beyond the gap-hunt above
       (which docs, which policies, sourced from where).
 - [ ] Decide how the three co-owners split the work, and whether one

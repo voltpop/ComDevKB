@@ -180,3 +180,25 @@ assuming a gap in Rich's list means the policy doesn't exist anywhere.
   guardrails already documented in [[university-outreach]]) — none of
   which Rich's page appears to cover, since it's whole-of-website rather
   than ComDev-specific.
+
+## First confirmed gap: community.apache.org/gsoc/
+
+<!-- kb-verify: system=web ref=https://community.apache.org/gsoc/ field=policy-content value="hybrid: how-to guide with embedded binding rules" checked=2026-08-19 tool=WebFetch -->
+
+Checked 2026-08-19 — confirms the hypothesis above with a concrete
+example rather than leaving it speculative. The GSoC page is **not**
+in Rich's `/policy` index, and it's a hybrid rather than a clean policy
+doc:
+
+- Mostly instructional (guidelines for students/mentors, an application
+  template, a 2026 timeline).
+- But embeds real binding rules with enforcement language: *"Proposals
+  without a score will be rejected, no exceptions"*; proposals lacking a
+  mentor get down-rated; hard deadline language ("must be completed")
+  for scoring/application dates.
+
+**Pattern this suggests:** ComDev's own program pages mix how-to content
+with enforceable rules in the same page, at a level of granularity
+Rich's whole-of-site index doesn't reach. Worth checking TAC's page and
+the university-outreach guardrails the same way before generalizing
+further — one confirmed example isn't yet a full pattern.
