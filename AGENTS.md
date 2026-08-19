@@ -1,13 +1,18 @@
 # AGENTS.md — instructions for AI agents working in this repo
 
 ComDevKB is a Markdown knowledge base of ideas, designs, and decisions
-arising from Apache Community Development (ComDev) work. Each file
-documents one topic or workstream in enough depth that a future reader —
-human or AI, and not necessarily the original author — can pick up where
-things left off without replaying the original conversation.
+arising from Apache Community Development (ComDev) work. Its job is
+project/effort management and keeping async discussions in sync — each
+file documents one topic or workstream in enough depth that a future
+reader — human or AI, and not necessarily the original author — can pick
+up where things left off without replaying the original conversation.
 
 This is a **project knowledge base**, not a chat log. Write for a future
 reader, not as a transcript.
+
+For the "how" behind the conventions below — the actual skill functions
+(`kb-start`, `save-to-kb`, `kb-audit`, `kb-agenda`, etc.) — see
+`KB-Skills.md`.
 
 ## Anonymization — required before any content lands here
 
@@ -82,6 +87,15 @@ decides whether it gets its own `projects/<name>/` directory or not:
 - `reference/` — enduring, non-lifecycle knowledge: standing synthesis
   or analysis true independent of any one project's status. Flat, no
   subdirectories — tag with `topics:` instead (see `Reference.md`).
+- `strategy/` — leadership-owned strategic thinking: mission, vision,
+  priority-setting, open-ended wishlists. **Subjective, top-down
+  material** — opinion, taste, and judgment calls about direction, not
+  verified facts about how something works. Not held to `reference/`'s
+  or `projects/`'s fact-checking bar. No lifecycle, no `Projects.md` row.
+  Matters more here than it does in `infrastructure-aikb`: ComDev's own
+  strategic plan (budget, working groups, priorities) directly shapes
+  which of this KB's projects and efforts are worth pursuing, in a way a
+  purely technical Infra team's roadmap doesn't for its own KB.
 - `Projects.md` — status index for `projects/`, including whether each
   has actually been raised with the ComDev PMC yet.
 - `Reference.md` — subject catalog for `reference/`, keyed by its
@@ -119,6 +133,12 @@ so staleness has to be caught deliberately rather than assumed away:
 
 ## Git workflow
 
+- **`main` has GitHub branch protection requiring changes via pull
+  request** (confirmed 2026-08-19 — a direct push was let through with an
+  explicit "bypassed rule violations" warning, meaning it's enforced but
+  currently bypassable, not that it's optional). Default to a branch + PR
+  rather than pushing straight to `main`; only push directly when the
+  user explicitly asks for that specific action.
 - Before pushing a new commit onto an existing branch that backs an open
   PR, verify the PR still exists and is still open (e.g. `gh pr view`).
   It may have already been merged since you last checked — pushing more

@@ -28,7 +28,12 @@ decided scope — office hours may narrow, broaden, or contest it.
 Open questions, deliberately unresolved:
 
 - Who is an "ambassador" — self-selected per PMC, appointed, one per
-  project, or something else?
+  project, or something else? **Per the draft's author (2026-08-19):**
+  visible community leads — people who already show up to events and do
+  the work — rather than a formal appointment process. Consistent with
+  the draft's own "recruit, don't assign" framing: ComDev identifies who
+  a project already treats as its community champion, it doesn't select
+  someone independently of that.
 - What does "compare notes and share solutions" run on — a
   mailing list, recurring call, or the venue [[community-forum-platform]]
   is already exploring? Worth checking for overlap before standing up

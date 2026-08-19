@@ -5,8 +5,9 @@ project: ambassador-program
 
 Pulled from `overview.md`'s open-questions and evaluation sections.
 
-- [ ] Who is an "ambassador" — self-selected per PMC, appointed, one per
-      project, or something else?
+- [x] Who is an "ambassador" — resolved 2026-08-19: visible community
+      leads, people who already show up to events and do the work; see
+      overview.md.
 - [ ] What does "compare notes and share solutions" run on — a mailing
       list, recurring call, or the venue [[community-forum-platform]] is
       already exploring? Check for overlap before standing up a separate
