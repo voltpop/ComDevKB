@@ -21,6 +21,9 @@ This README is the human-facing "how do I find/use things" guide.
 - **[strategy/README.md](strategy/README.md)** — the ComDev PMC Chair's
   2-year plan and an open-ended wishlist of ideas nobody's scoped yet.
   Start here if you want "what's the direction, not just the backlog."
+- **[meeting-notes/](meeting-notes/)** — one file per live meeting (e.g.
+  ComDev office hours), newest by filename date. Start here if you want
+  "what got discussed/decided on a specific date."
 
 ## How it's organized
 
@@ -30,9 +33,10 @@ projects/<name>/     one directory per active project
   TODOs.md              open items, as a checklist (only exists once there's something to track)
   <name>-*.md           sibling/sub-project notes, prefixed with the project name
 
-reference/<name>.md  standing knowledge, independent of any project's status
-strategy/            leadership-owned direction: the Chair's plan, the wishlist
-archive/<name>/      closed projects, moved here whole, never deleted
+reference/<name>.md       standing knowledge, independent of any project's status
+strategy/                 leadership-owned direction: the Chair's plan, the wishlist
+meeting-notes/<date>-*.md meeting-facing summaries, link out rather than duplicate project docs
+archive/<name>/           closed projects, moved here whole, never deleted
 ```
 
 A **project** has a real (even if distant or ongoing) deliverable — the
@@ -56,14 +60,16 @@ are citations by name, not clickable links, so search/grep for the
 bracketed name to find the file (e.g. `[[ambassador-program]]` →
 `projects/ambassador-program/overview.md`).
 
-## What you won't find here
+## Names
 
-No individual names. Every doc refers to people by role ("the ComDev
-PMC Chair," "the draft's author," "a hosting PMC's liaison") instead —
-this KB is public today and headed into the Apache org, so that's a
-hard rule, not a style preference. See `AGENTS.md`'s Anonymization
-section for the full policy, including what to do if you're editing a
-doc that predates it.
+Real names and ASF handles are fine here — used for ownership and
+attribution (e.g. an `owners:` frontmatter field, "per Rich," "raised by
+Ruth"). Email addresses and other contact details still aren't. See
+`AGENTS.md`'s "Names and identifying information" section for the full
+policy and its history — this KB briefly ran a stricter role-only
+convention for part of 2026-08-19 before reopening it the same day, so
+don't be surprised if a doc from that narrow window still reads
+role-only; that's a historical artifact, not a mistake to chase down.
 
 ## Contributing a change
 

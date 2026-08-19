@@ -3,6 +3,7 @@ title: Organize ComDev's docs and policies
 project: docs-and-policies
 compiled: 2026-08-19
 status: new — open-ended effort, no fixed end-state; three co-owners assigned, scope not yet broken down
+owners: Brian Proffit (BKP), Andrew Wetmore, Drew Foulks (dfoulks)
 ---
 
 New effort raised 2026-08-19: organize ComDev's real, community-facing
@@ -20,10 +21,9 @@ indefinitely, not a one-time reorganization.
 
 ## Owners
 
-Three co-owners assigned 2026-08-19 (identities tracked outside this KB
-per its anonymization convention — see `AGENTS.md`): one is a ComDev PMC
-member and this KB's own author; the other two are additional named
-contributors to this effort, not otherwise identified here.
+Three co-owners assigned 2026-08-19: **Brian Proffit (BKP)**, **Andrew
+Wetmore**, and **Drew Foulks (dfoulks)** — this KB's own author, and a
+ComDev PMC member.
 
 ## Scope — not yet broken down
 

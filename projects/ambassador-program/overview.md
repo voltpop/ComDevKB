@@ -2,10 +2,10 @@
 title: Ambassador program — foundation-wide, ComDev-stewarded
 project: ambassador-program
 compiled: 2026-08-19
-status: first draft exists (apache/comdev-working-groups proposed/ambassadors.md) — evaluated 2026-08-19 ahead of ComDev office hours; hybrid-funding refinement proposed, not yet raised with the draft's author or the PMC
+status: first draft exists (apache/comdev-working-groups proposed/ambassadors.md) — evaluated 2026-08-19 ahead of ComDev office hours; hybrid-funding refinement proposed, not yet raised with Rich or the PMC
 ---
 
-Raised by the ASF President (also a ComDev PMC member) as a candidate
+Raised by Ruth (ASF President, ComDev PMC member) as a candidate
 topic for the 2026-08-19 ComDev office hours. No prior thread in the KB —
 this is a new project, not an extension of an existing one.
 
@@ -17,9 +17,9 @@ across PMCs, don't hold authority that belongs to individual projects.
 Not yet brought to the ComDev PMC as a formal proposal; this doc exists to
 give office hours something concrete to react to.
 
-## Starting shape, per the draft's author
+## Starting shape, per Rich
 
-The draft author's framing: the program starts as a place for ambassadors to compare
+Rich's framing: the program starts as a place for ambassadors to compare
 notes and share solutions — a peer knowledge-exchange venue, not (at
 least initially) external evangelism, onboarding mentorship, or a formal
 PMC-liaison structure. This is one person's opening framing, not a
@@ -28,7 +28,7 @@ decided scope — office hours may narrow, broaden, or contest it.
 Open questions, deliberately unresolved:
 
 - Who is an "ambassador" — self-selected per PMC, appointed, one per
-  project, or something else? **Per the draft's author (2026-08-19):**
+  project, or something else? **Per Rich (2026-08-19):**
   visible community leads — people who already show up to events and do
   the work — rather than a formal appointment process. Consistent with
   the draft's own "recruit, don't assign" framing: ComDev identifies who
@@ -88,7 +88,7 @@ an escalation path — built once, applied across N projects.
    yet?** The draft's welcome-email template asserts the dashboard is
    already live at `community.apache.org/metrics/?project=X`; the
    toolkit section separately implies only some items are built.
-   Resolved in part, 2026-08-19: the draft's author is already publishing
+   Resolved in part, 2026-08-19: Rich is already publishing
    weekly metrics, currently at <https://boxofclue.com/comdev-metrics/> —
    externally hosted, not on ASF/ComDev infrastructure, with a request to
    move it onto a ComDev-owned machine. So the dashboard is real, but
@@ -115,7 +115,7 @@ an escalation path — built once, applied across N projects.
 
 ## Proposed refinement: hybrid funding for the Speaker Travel Program
 
-Author's framing (2026-08-19), not yet raised with the draft's author or
+Author's framing (2026-08-19), not yet raised with Rich or
 the PMC —
 resolves overlap #1 above without reinventing TAC: **funding comes from
 donors; outreach/selection stays volunteer-led.** Concretely:
@@ -147,5 +147,5 @@ First draft exists and has been evaluated. Purpose/shape is the draft
 author's opening framing (peer knowledge-exchange), largely consistent
 with how ComDev already runs its other programs. Remaining open items
 above, plus the hybrid-funding refinement, are inputs for the 2026-08-19
-office hours discussion — not yet raised with the draft's author or
+office hours discussion — not yet raised with Rich or
 decided by the PMC.

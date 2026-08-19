@@ -29,13 +29,13 @@ per `AGENTS.md`'s anonymization rule.
 
 ## What's different from infra-aikb — don't copy these assumptions
 
-- **No individual naming, anywhere, including ownership fields.** Infra-aikb
-  names people plus ASF handle for exactly this purpose; ComDevKB's
-  anonymization rule is stricter and has no carve-out for it (confirmed
-  2026-08-19, including after this repo's own eventual move into the
-  Apache org was raised as a reason to reconsider — the answer held:
-  stay role-based). `owner(s)`-style fields here read like "a ComDev PMC
-  member and two other contributors," not names.
+- **Individual naming is fine, same as infra-aikb.** ComDevKB briefly ran
+  a stricter role-only policy on 2026-08-19, then reopened it the same
+  day — see `AGENTS.md`'s "Names and identifying information" for the
+  full history and the public-repo/Apache-migration tradeoff that was
+  weighed and set aside in favor of durable, name-based ownership
+  tracking. `owner(s)`-style fields read like infra-aikb's own
+  convention: "Brian Proffit (bkp)," not a role placeholder.
 - **`main` is actually gated.** This repo has GitHub branch protection
   requiring changes to land via pull request — confirmed 2026-08-19 after
   a direct push to `main` was let through with an explicit "bypassed rule

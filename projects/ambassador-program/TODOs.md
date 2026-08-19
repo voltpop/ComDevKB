@@ -5,6 +5,10 @@ project: ambassador-program
 
 Pulled from `overview.md`'s open-questions and evaluation sections.
 
+- [ ] Review the old Fedora Project/Red Hat Ambassador program as
+      precedent (<https://fedoraproject.org/wiki/Ambassadors>, suggested
+      2026-08-19 by Ruth) — note what's reusable vs.
+      Fedora-specific (single-distro structure vs. ComDev's cross-PMC one).
 - [x] Who is an "ambassador" — resolved 2026-08-19: visible community
       leads, people who already show up to events and do the work; see
       overview.md.
@@ -15,7 +19,7 @@ Pulled from `overview.md`'s open-questions and evaluation sections.
 - [ ] Reconcile "Speaker Travel Program" naming/scope against the
       existing Travel Assistance Committee — resolved in principle
       (own effort, donor-funded, volunteer-selected) but not yet raised
-      with the draft's author or the PMC.
+      with Rich or the PMC.
 - [ ] Confirm whether `community.apache.org/metrics/` is the intended
       eventual path for the metrics dashboard, or just a placeholder in
       the draft — current reality is externally hosted at

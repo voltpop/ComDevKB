@@ -14,26 +14,32 @@ For the "how" behind the conventions below — the actual skill functions
 (`kb-start`, `save-to-kb`, `kb-audit`, `kb-agenda`, etc.) — see
 `KB-Skills.md`.
 
-## Anonymization — required before any content lands here
+## Names and identifying information
 
-Files in this repo may end up shared or published beyond the original
-conversation. Before writing or committing content:
+Real names (and ASF handles, where known) are fine to use — for
+ownership/attribution specifically, they're more durable than roles,
+since roles drift ("the ComDev PMC Chair" today may not be the same
+person next year) in a way a name doesn't.
 
-- **No session/system metadata.** Don't include session IDs, conversation
-  IDs, working-directory paths, hostnames, or other machine/tool-generated
+**History on this:** this repo briefly ran a stricter role-only
+anonymization policy (adopted, then reconsidered, all within
+2026-08-19) on the reasoning that this repo is public today and expected
+to move into the Apache org. That tradeoff is real and was explicitly
+discussed — the call was made to use names anyway, favoring durability
+and ease of ownership-tracking. Revisit if the repo's visibility or the
+migration timeline changes. Docs written under the earlier policy (e.g.
+early Code of Conduct notes) may still read role-only; that's fine as a
+historical artifact, not something to mass-migrate.
+
+Still avoid regardless of the above:
+- **No session/system metadata.** Session IDs, conversation IDs,
+  working-directory paths, hostnames, or other machine/tool-generated
   identifiers. If a template includes a field like `source_session`,
   remove it.
-- **No personal PII.** Don't use full personal names, email addresses, or
-  other identifying details. Refer to people by role instead — "the
-  author," "a ComDev PMC member," "the requester," "the hosting PMC's
-  liaison" — even when the identity is obvious from context (e.g., a
-  single-author doc). Public ASF role/committee names (PMC, ComDev, TAC,
-  Brand Management) are fine; individual names are not.
-- **Dates are fine, identities are not.** Keep absolute dates (helps later
-  readers judge how stale something is) but don't pair them with a named
-  individual — "decided 2026-07-30" not "Drew decided on 2026-07-30."
-- When editing an existing file, scrub any PII/session metadata you find
-  in it as part of the edit, even if that wasn't the primary request.
+- **No email addresses or contact details** — a name is fine, a way to
+  reach that person directly isn't.
+- When editing an existing file, scrub any session metadata you find in
+  it as part of the edit, even if that wasn't the primary request.
 
 ## Structure
 
@@ -96,6 +102,13 @@ decides whether it gets its own `projects/<name>/` directory or not:
   strategic plan (budget, working groups, priorities) directly shapes
   which of this KB's projects and efforts are worth pursuing, in a way a
   purely technical Infra team's roadmap doesn't for its own KB.
+- `meeting-notes/` — one file per live meeting (e.g. ComDev office
+  hours), named `YYYY-MM-DD-<meeting>.md`. Meeting-facing summaries, not
+  duplicates of the full project docs they draw from — link out to the
+  relevant `projects/`/`reference/` notes rather than restating them.
+  Includes a "Decisions / outcomes" section left for after the meeting.
+  Flat, no lifecycle, no index file — chronological by filename is
+  enough to browse.
 - `Projects.md` — status index for `projects/`, including whether each
   has actually been raised with the ComDev PMC yet.
 - `Reference.md` — subject catalog for `reference/`, keyed by its
