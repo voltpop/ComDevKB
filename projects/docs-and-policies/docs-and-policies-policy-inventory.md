@@ -180,3 +180,71 @@ assuming a gap in Rich's list means the policy doesn't exist anywhere.
   guardrails already documented in [[university-outreach]]) — none of
   which Rich's page appears to cover, since it's whole-of-website rather
   than ComDev-specific.
+
+## First confirmed gap: community.apache.org/gsoc/
+
+<!-- kb-verify: system=web ref=https://community.apache.org/gsoc/ field=policy-content value="hybrid: how-to guide with embedded binding rules" checked=2026-08-19 tool=WebFetch -->
+
+Checked 2026-08-19 — confirms the hypothesis above with a concrete
+example rather than leaving it speculative. The GSoC page is **not**
+in Rich's `/policy` index, and it's a hybrid rather than a clean policy
+doc:
+
+- Mostly instructional (guidelines for students/mentors, an application
+  template, a 2026 timeline).
+- But embeds real binding rules with enforcement language: *"Proposals
+  without a score will be rejected, no exceptions"*; proposals lacking a
+  mentor get down-rated; hard deadline language ("must be completed")
+  for scoring/application dates.
+
+**Pattern this suggests:** ComDev's own program pages mix how-to content
+with enforceable rules in the same page, at a level of granularity
+Rich's whole-of-site index doesn't reach. Worth checking TAC's page and
+the university-outreach guardrails the same way before generalizing
+further — one confirmed example isn't yet a full pattern.
+
+## Source 3: PolicyMCP (Justin McClean, VP Legal) — see [[policymcp]]
+
+A third, far more granular source surfaced 2026-08-19: **73 distinct
+policy documents**, vs. the Board Overview's 12 sections and Rich's
+~40 links. Full detail (tools, install, complete list) in [[policymcp]]
+— this section is just the gap comparison against Rich's index.
+
+### First-pass gap list: PolicyMCP keys not obviously in Rich's index
+
+Title-based comparison only — not yet confirmed that Rich's href for a
+similar-sounding title is actually the same underlying document (e.g.
+`privacy_mailing_lists` vs. Rich's "Mailing List Policy" may or may not
+be the same page). Treat as candidates to verify, not a final diff.
+
+- **Governance/Reporting, missing entirely from Rich's index:** `bylaws`,
+  `certificate_of_incorporation`, `project_independence`,
+  `board_reporting`.
+- **Release, missing:** `docker_hub`, `release_download_pages`,
+  `nightlies`, `crypto_policy`.
+- **Branding, missing:** `trademark_maintenance`, `podling_branding`.
+- **Events, missing:** `event_code_of_conduct` — distinct from the
+  Anti-Harassment Policy already in Rich's index; unclear if this is a
+  genuinely separate document or an overlap worth resolving.
+- **Infrastructure — the largest gap by far, ~15 documents:**
+  `infra_site_ban`, `committer_outreach`, `content_moderation`,
+  `mail_rejection`, `spam_reporting`, `password_policy`,
+  `third_party_services`, `slack_policy`, `sensitive_information`,
+  `github_actions`, `content_security_policy`, `app_upgrade_policy`,
+  `backup_policy`, `os_upgrade_policy`, `vm_policy`,
+  `jira_account_approval`, `jira_account_retention`. Plausible
+  explanation: Rich's index is scoped to `www.apache.org` content, and
+  most of these live on `infra.apache.org` instead — same website-scope
+  limitation as the GSoC gap above, different site.
+- **Privacy, missing:** `privacy_contributors`, `privacy_committers`,
+  `privacy_project_websites`, `privacy_downloadable_products_high`,
+  `privacy_downloadable_products_medium` — Rich's index has the two
+  top-level privacy policies but not these program-specific variants.
+- **Incubator, missing:** `incubator_ip_clearance`.
+
+**Working theory:** Rich's index and the Board Overview are both scoped
+to `www.apache.org`; PolicyMCP additionally covers `infra.apache.org`
+and several narrower sub-policies neither of the other two sources
+reaches. If confirmed, the docs-and-policies effort's real value-add
+over PR #725 may be exactly this: surfacing the infra.apache.org and
+sub-policy layer that a website-content-focused index naturally misses.
