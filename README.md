@@ -73,12 +73,18 @@ role-only; that's a historical artifact, not a mistake to chase down.
 
 ## Contributing a change
 
-`main` requires changes via pull request (GitHub branch protection).
-Work in a branch, open a PR — see `KB-Skills.md`'s `save-to-kb` for the
-full mechanics, including the PII scan every diff should get before it
-lands. If you're not sure whether something is a new project, an
-addition to an existing one, or reference material, `AGENTS.md`'s
-Concepts/Layout sections walk through the distinction.
+`main` requires changes via pull request (a GitHub ruleset, not classic
+branch protection). Work in a branch, open a PR — see `KB-Skills.md`'s
+`save-to-kb` for the full mechanics, including the PII scan every diff
+should get before it lands. If you're not sure whether something is a
+new project, an addition to an existing one, or reference material,
+`AGENTS.md`'s Concepts/Layout sections walk through the distinction.
+
+**Editing directly on GitHub.com works fine** — click the pencil icon on
+any file, GitHub will offer to create a branch + PR for you since `main`
+is protected. Once you open the PR, a CI job automatically stamps
+`last_modified:` in whatever file(s) you touched, so you don't have to
+remember to do it by hand.
 
 ## Full conventions and skills reference
 

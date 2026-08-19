@@ -43,13 +43,19 @@ Still avoid regardless of the above:
 
 ## Structure
 
-- Frontmatter: `title`, `compiled` (date), `status` (free text — this KB
-  favors an informative status line over a rigid enum, since ComDev
-  threads carry more nuance than active/blocked/done). `project:
-  <name>` on any note inside `projects/<name>/`, matching the directory.
-  `topics: [tag, tag]` on any note inside `reference/` — check
-  `Reference.md`'s controlled vocabulary before inventing a new tag. No
-  session/cwd/author-identity fields.
+- Frontmatter: `title`, `compiled` (date — set once, a point-in-time
+  record; doesn't get bumped just because the doc was edited later),
+  `status` (free text — this KB favors an informative status line over a
+  rigid enum, since ComDev threads carry more nuance than
+  active/blocked/done). `project: <name>` on any note inside
+  `projects/<name>/`, matching the directory. `topics: [tag, tag]` on any
+  note inside `reference/` — check `Reference.md`'s controlled vocabulary
+  before inventing a new tag. `owners:` is fine wherever ownership is
+  actually known (real names/handles, per "Names and identifying
+  information" above). `last_modified:` (date) is CI-maintained — see
+  `.github/workflows/update-frontmatter.yml` — don't hand-edit it; it
+  gets stamped automatically on any PR that touches the file. Still no
+  session/cwd fields (`source_session` and similar).
 - Body should capture: context/motivation, decisions made and why,
   explicit rejections (what was considered and ruled out, and why — this
   is often more valuable than the decision itself), and open/unresolved

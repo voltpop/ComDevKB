@@ -16,9 +16,12 @@ self-maintain.
 | [docs-and-policies](projects/docs-and-policies/overview.md) | New — open-ended effort, three co-owners assigned, scope not yet broken down | No | 2026-08-19 |
 
 "Last touched" is each project's `overview.md` frontmatter `compiled`
-date — a proxy for recency, not a guarantee nothing in the directory
-changed since (check `git log projects/<name>/` for the real answer when
-it matters).
+date today — a proxy for recency, not a guarantee nothing in the
+directory changed since. Going forward, prefer `last_modified:` once a
+doc has one (CI-stamped on every PR that touches it — see
+`.github/workflows/update-frontmatter.yml`); it isn't backfilled onto
+docs that predate the workflow, so `compiled` is still the fallback for
+those until they're next edited.
 
 ## Staleness watchlist
 

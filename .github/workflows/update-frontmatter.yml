@@ -1,0 +1,69 @@
+name: Update frontmatter
+
+# Stamps last_modified: <date> into any changed Markdown file's
+# frontmatter, on the PR branch, before it merges. This is the real
+# path for a human editing a doc via GitHub's web UI: main is protected
+# by a ruleset requiring PRs, so a web edit against main auto-creates a
+# branch + PR, which is exactly what this triggers on.
+#
+# Deliberately PR-only, not also push-to-main: the "main" ruleset has no
+# bypass actor configured for a bot identity, so a job that tried to
+# push straight to main after merge would just fail. See scripts/
+# update_frontmatter.py for the actual stamping logic.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - "**.md"
+
+permissions:
+  contents: write
+
+jobs:
+  update-last-modified:
+    # Skip the bot's own follow-up push (loop guard) and skip fork PRs
+    # (GITHUB_TOKEN can't push to a fork's branch).
+    if: >
+      github.actor != 'github-actions[bot]' &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Determine changed markdown files
+        id: changed
+        run: |
+          git fetch origin "${{ github.event.pull_request.base.sha }}" --depth=1
+          git diff --name-only --diff-filter=d \
+            "${{ github.event.pull_request.base.sha }}" \
+            "${{ github.event.pull_request.head.sha }}" \
+            -- '*.md' > changed_files.txt
+          cat changed_files.txt
+
+      - name: Stamp last_modified
+        run: |
+          if [ -s changed_files.txt ]; then
+            python3 scripts/update_frontmatter.py $(cat changed_files.txt)
+          else
+            echo "No changed markdown files."
+          fi
+
+      - name: Commit and push if anything changed
+        run: |
+          if git diff --quiet; then
+            echo "No frontmatter changes needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A -- '*.md'
+          git commit -m "chore: stamp last_modified frontmatter [skip ci]"
+          git push origin "HEAD:${{ github.event.pull_request.head.ref }}"
