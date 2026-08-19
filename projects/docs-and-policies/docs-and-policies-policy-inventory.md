@@ -274,31 +274,50 @@ docs-and-policies effort's real value-add over PR #725 is the
 infra.apache.org layer plus the governance/privacy/incubator sub-policies
 above — not a theory anymore, a direct URL-level diff.
 
-**New finding — the reverse gap:** Rich's index also has ~13 documents
-with no matching key in PolicyMCP's 73, meaning neither source is a
-superset of the other:
+**Reverse gap — verified by content, not just by key list:** ran
+`search_policies` for each of the ~13 Rich-only items to check whether
+their content actually exists somewhere inside PolicyMCP's 73 documents
+under a different key, rather than trusting the URL list alone. Result:
+**12 confirmed absent, 1 was not actually a gap.**
+
+Confirmed genuinely absent from PolicyMCP — no matching content
+anywhere in a search, not just missing as a standalone key:
 
 - Infrastructure Team Code of Conduct (`/dev/infra-coc.html`)
 - DMCA Designated Agent (`/legal/dmca.html`)
-- Export Control / Encryption Policy (`/licenses/exports/`) — distinct
-  from PolicyMCP's `crypto_policy`, which covers cryptography *within a
-  release*, not export-control declarations
+- Export Control / Encryption Policy (`/licenses/exports/`) — the
+  *page itself* isn't indexed, though `crypto_policy` and `cla_faq`
+  both reference it by name/link ("see the ASF Exports Classifications
+  and Source Links page") without reproducing its content
 - Social Media Best Practices (`/foundation/marks/socialmedia.html`)
-- Logo Usage Policy (`/foundation/marks/logos.html`)
-- Naming Policy (`/foundation/marks/naming.html`)
-- Trademark Reporting (`/foundation/marks/reporting.html`)
+- Logo Usage Policy (`/foundation/marks/logos.html`) — logo/graphics
+  rules appear scattered inside `merchandise_branding` and
+  `domain_name_branding`, but not this dedicated page
+- Naming Policy (`/foundation/marks/naming.html`) — confirmed via
+  `curl -I` this is a real, independently live page (HTTP 200, not a
+  redirect to `marks/pmcs.html`), so it's a genuine separate document,
+  not an alias of `branding`
+- Trademark Reporting (`/foundation/marks/reporting.html`) — `trademark_maintenance`'s
+  own content explicitly points to "the Apache Trademark Reporting
+  Guidelines" as a separate document, corroborating the gap from
+  inside PolicyMCP's own text
 - Apache Project Minimum Requirements (`/dev/project-requirements.html`)
-- Board Escalation Guide (`/board/escalation.html`)
+- Board Escalation Guide (`/board/escalation.html`) — same pattern as
+  Trademark Reporting: `pmc`'s content names "the detailed Escalation
+  Guide" as an external document rather than containing it
 - Conference Policy (`/foundation/conferences.html`)
 - Giveaway Rules (`/giveaway-rules/`)
 - Officer Speaking Guide (`/press/guides/officer-speaking-guide.html`)
-- Mailing List (naming) Policy — the `#mailing-list-naming-policy`
-  anchor on the `pmc` page; PolicyMCP indexes `pmc` as one document and
-  doesn't break this section out separately
+
+**Not actually a gap:** Mailing List (naming) Policy — Rich's link
+(`/dev/pmc.html#mailing-list-naming-policy`) is an anchor *within* the
+`pmc` document, and `search_policies` surfaced that exact anchor's
+content directly. PolicyMCP does contain this — it's just not broken
+out as its own key, same as the original inventory note predicted.
 
 If `docs-and-policies` ends up building a merged index rather than just
-patching PR #725, these belong in it too — PolicyMCP isn't a full
-replacement for Rich's page, it's complementary.
+patching PR #725, the 12 confirmed items belong in it too — PolicyMCP
+isn't a full replacement for Rich's page, it's complementary.
 
 One unresolved detail, not worth blocking on: `cla_faq`'s PolicyMCP URL
 (`apache.org/foundation/license-faq.html`) differs from Rich's link
