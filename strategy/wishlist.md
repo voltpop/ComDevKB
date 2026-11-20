@@ -19,3 +19,10 @@ real `projects/<name>/` entry.
   graduation-outreach rotation — check there before standing up a
   separate mechanism; this may just be "extend the existing template to
   a second audience" rather than a new build.
+- **Amicus quercae ("Friend of the Oak"; formerly amicus plumae, "friend
+  of the feather").** An outline of a role that would function like
+  *amicus curiae* to the courts. Raised by Drew Foulks 2026-11-20 as
+  separate from the university outreach program ([[overview]] in
+  `asfu/`). To refine later: who the friend is, what they do, what
+  authority they have (if any), and how they relate to existing
+  roles. Nothing is decided beyond the name and the analogy.
