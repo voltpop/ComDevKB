@@ -1,10 +1,14 @@
 ---
 title: External gap review of the CoC enforcement draft
+type: Review
+description: "External gap review of the CoC enforcement draft, reformatted and triaged."
 compiled: 2026-07-31
-status: received and triaged — most items resolved same-day; see [[code-of-conduct]]
+status: stable
+status_note: received and triaged — most items resolved same-day; see [[code-of-conduct]]
 source: received as an unformatted plain-text message (a flat list of dashed
   points, no headers or markdown); reformatted here into a numbered list for
   the KB, content otherwise unchanged from the original
+last_modified: 2026-11-20
 ---
 
 # External gap review of the CoC enforcement draft

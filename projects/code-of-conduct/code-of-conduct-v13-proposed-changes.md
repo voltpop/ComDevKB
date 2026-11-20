@@ -1,8 +1,12 @@
 ---
 title: Proposed changes to the cwiki Code of Conduct draft (v13) before Board submission
+type: Proposal
+description: "Proposed edits to the cwiki CoC draft (v13) before Board submission."
 compiled: 2026-07-31
-status: draft — proposed edits, not yet raised with the wiki page's author or the Chair
+status: draft
+status_note: draft — proposed edits, not yet raised with the wiki page's author or the Chair
 source: reviewed against the actual v13 page text (last updated Sep 09 2025), pasted into conversation 2026-07-31
+last_modified: 2026-11-20
 ---
 
 # Proposed changes to the cwiki CoC draft (v13)

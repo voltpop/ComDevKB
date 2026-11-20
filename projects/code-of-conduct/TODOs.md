@@ -1,6 +1,9 @@
 ---
 title: Code of Conduct revision — open items
+type: Tasks
+description: "Open items for the Code of Conduct revision."
 project: code-of-conduct
+last_modified: 2026-11-20
 ---
 
 Pulled from `overview.md`'s "Open / unresolved" section — see that file

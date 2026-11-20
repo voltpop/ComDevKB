@@ -1,9 +1,12 @@
 ---
 title: Ambassador program — foundation-wide, ComDev-stewarded
+type: Project
+description: "Foundation-wide ambassador program proposal, ComDev-stewarded, with evaluation of the first draft."
 project: ambassador-program
 compiled: 2026-08-19
-status: first draft exists (apache/comdev-working-groups proposed/ambassadors.md) — evaluated 2026-08-19 ahead of ComDev office hours; hybrid-funding refinement proposed, not yet raised with Rich or the PMC
-last_modified: 2026-08-19
+status: draft
+status_note: first draft exists (apache/comdev-working-groups proposed/ambassadors.md) — evaluated 2026-08-19 ahead of ComDev office hours; TAC/ComDev budgetary split softly decided 2026-09-02 (TAC means-tested, ambassador travel is ComDev's own remit, non-funding eligibility criterion TBD) — informal, not yet formalized or raised with Rich or the PMC
+last_modified: 2026-11-20
 ---
 
 Raised by Ruth (ASF President, ComDev PMC member) as a candidate
@@ -118,9 +121,33 @@ an escalation path — built once, applied across N projects.
 
 ## Proposed refinement: hybrid funding for the Speaker Travel Program
 
-Author's framing (2026-08-19), not yet raised with Rich or
-the PMC —
-resolves overlap #1 above without reinventing TAC: **funding comes from
+Author's framing (2026-08-19). **Raised directly with Gavin
+McDonald, head of TAC, 2026-09-02** — the natural first
+stakeholder for a TAC-overlap question, ahead of/independent from
+raising it with Rich or the PMC.
+
+**Gavin's response, 2026-09-02:** agrees these should be handled
+separately. TAC stays means-tested — it funds under-financed
+volunteers, full stop. Ambassador travel is **ComDev's own remit**
+(two earlier notes here mis-described this and were corrected same-day
+— see below).
+
+**Decided, 2026-09-02: ComDev's eligibility criteria should *not* be
+funding-based at all** — not means-tested like TAC, and not framed as
+"regardless of financial need" either, since that still names funding
+as a factor. **What the actual criterion is instead is still open** —
+likely role/ambassador-status-based, but not yet decided. Don't
+describe ComDev's side of this split in funding terms until that's
+resolved. This lands closer to the author's "own effort, not a TAC
+line item" call than the original accepted-CFP-speaker framing did,
+and comes with implicit TAC-head buy-in for the TAC/ComDev separation
+itself, even though the criterion question is unresolved. Not yet
+formalized — no charter, no eligibility criterion, no funding
+mechanism decided; not yet raised with Rich or the PMC; not yet
+confirmed whether "ComDev's own remit" means a dedicated committee or
+folds into the ambassador program's existing structure.
+
+Resolves overlap #1 above without reinventing TAC: **funding comes from
 donors; outreach/selection stays volunteer-led.** Concretely:
 
 - Donors fund a pool earmarked for speaker travel; volunteers (ambassadors
@@ -134,12 +161,15 @@ donors; outreach/selection stays volunteer-led.** Concretely:
   governance influence (same principle as ApacheCon/GSoC sponsors)."*
   Applies directly: donors fund the pool, ambassadors/TAC pick who travels,
   never a sponsor's pick.
-- Author's call (2026-08-19): this runs as its **own, separate effort**
-  from TAC, not a donor-restricted line item folded into TAC's existing
-  fund — narrower audience (accepted-CFP speakers specifically) and a
-  distinct donor-funding source justify a program of its own, structurally
-  parallel to TAC (same volunteer-led, same no-cash-for-influence rule)
-  rather than a variant inside it. Either way the ambassador's job is the
+- Author's call (2026-08-19), now aligned with Gavin McDonald's
+  2026-09-02 response: this runs as its **own effort, under ComDev**,
+  not a donor-restricted line item folded into TAC's existing fund.
+  TAC stays means-tested (under-financed volunteers); ComDev's
+  eligibility criterion is **decided to be non-funding-based, but not
+  yet decided what it is** (originally scoped by the author as
+  accepted-CFP speakers specifically — not yet confirmed whether that
+  still holds). Structurally parallel to TAC either way (volunteer-led,
+  same no-cash-for-influence rule). Either way the ambassador's job is the
   same — surface who deserves it, not who pays.
 - Optics: probably can't be branded as sponsor-attributed ("brought to you
   by X Corp"), same vendor-neutrality concern as any ASF sponsor money.
@@ -149,6 +179,7 @@ donors; outreach/selection stays volunteer-led.** Concretely:
 First draft exists and has been evaluated. Purpose/shape is the draft
 author's opening framing (peer knowledge-exchange), largely consistent
 with how ComDev already runs its other programs. Remaining open items
-above, plus the hybrid-funding refinement, are inputs for the 2026-08-19
-office hours discussion — not yet raised with Rich or
-decided by the PMC.
+above are inputs for ongoing office hours discussion — not yet raised
+with Rich or decided by the PMC. The hybrid-funding refinement is
+already in motion: being raised directly with Gavin McDonald, head of
+TAC, as of 2026-09-02.

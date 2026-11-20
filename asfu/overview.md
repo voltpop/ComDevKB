@@ -1,8 +1,12 @@
 ---
 title: ComDev university membership pipeline — IEEE-inspired campus program, ASF-native governance mapping, university institutional guardrails, and success metrics
+type: Project
+description: "Target-state design for a ComDev university membership pipeline, mapped to ASF governance."
 project: university-outreach
 compiled: 2026-07-29
-status: target-state design — rollout deliberately not yet started, pending reconciliation against a separate inventory of current university interactions
+status: draft
+status_note: target-state design — rollout deliberately not yet started, pending reconciliation against a separate inventory of current university interactions
+last_modified: 2026-11-20
 ---
 
 # ComDev university membership pipeline

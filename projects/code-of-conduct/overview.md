@@ -1,8 +1,12 @@
 ---
 title: ComDev Code of Conduct revision — adding enforcement specificity within Delaware nonstock/501(c)(3) constraints
+type: Project
+description: "ComDev Code of Conduct revision: enforcement specificity within Delaware nonstock and 501(c)(3) constraints."
 project: code-of-conduct
 compiled: 2026-07-30
-status: living document — in progress, more sessions to be folded in
+status: draft
+status_note: living document — in progress, more sessions to be folded in
+last_modified: 2026-11-20
 ---
 
 # ComDev Code of Conduct revision

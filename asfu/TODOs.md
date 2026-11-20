@@ -1,11 +1,18 @@
 ---
 title: University outreach — open items
+type: Tasks
+description: "Open items for university outreach."
 project: university-outreach
+last_modified: 2026-11-20
 ---
 
 Pulled from `overview.md`'s "Open / unresolved" section — see that file
 for full context on each.
 
+- [ ] Set up a Discord and a website for ASFU (owner: Drew Foulks,
+      added 2026-11-20). Not yet scoped: hosting, naming, and whether
+      "ASFU" survives as the working name. Check ASF trademark and
+      infra policy before registering anything.
 - [ ] Liability posture for chapter events (physical meetups/hackathons
       under Apache branding) — trademark/endorsement optics are covered;
       actual legal exposure is not. Needs review from whoever handles

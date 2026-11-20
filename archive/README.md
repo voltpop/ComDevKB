@@ -1,3 +1,9 @@
+---
+title: Archive
+type: Index
+description: "Where closed ComDevKB projects are archived."
+last_modified: 2026-11-20
+---
 # Archive
 
 Closed ComDevKB projects land here, moved as a full directory (not a

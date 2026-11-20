@@ -1,8 +1,12 @@
 ---
 title: Threaded community forum with upvoting — knowledge organization and tooling
+type: Project
+description: "Threaded community forum with upvoting: platform options and knowledge organization."
 project: community-forum-platform
 compiled: 2026-08-12
-status: two platform options under consideration — Discourse and Lemmy (2026-08-12) — scope/hosting/audience still unresolved, not yet brought to ComDev PMC
+status: draft
+status_note: two platform options under consideration — Discourse and Lemmy (2026-08-12) — scope/hosting/audience still unresolved, not yet brought to ComDev PMC
+last_modified: 2026-11-20
 ---
 
 Raised 2026-08-12, in the same conversation that produced

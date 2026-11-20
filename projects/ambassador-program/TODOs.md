@@ -1,6 +1,9 @@
 ---
 title: Ambassador program — open items
+type: Tasks
+description: "Open items for the ambassador program."
 project: ambassador-program
+last_modified: 2026-11-20
 ---
 
 Pulled from `overview.md`'s open-questions and evaluation sections.
@@ -17,9 +20,14 @@ Pulled from `overview.md`'s open-questions and evaluation sections.
       already exploring? Check for overlap before standing up a separate
       channel.
 - [ ] Reconcile "Speaker Travel Program" naming/scope against the
-      existing Travel Assistance Committee — resolved in principle
-      (own effort, donor-funded, volunteer-selected) but not yet raised
-      with Rich or the PMC.
+      existing Travel Assistance Committee — **2026-09-02: Gavin
+      McDonald, head of TAC, agrees this is ComDev's own remit, not
+      TAC's**. TAC stays means-tested (under-financed volunteers).
+      **Decided: ComDev's eligibility criterion is not funding-based**
+      — but what it actually is (role/ambassador-status or something
+      else) is still open. Also still open: whether this is a
+      dedicated committee or folds into the ambassador program itself,
+      funding mechanism, and raising it with Rich or the PMC.
 - [ ] Confirm whether `community.apache.org/metrics/` is the intended
       eventual path for the metrics dashboard, or just a placeholder in
       the draft — current reality is externally hosted at

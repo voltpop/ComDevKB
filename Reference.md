@@ -1,3 +1,9 @@
+---
+title: Reference — subject catalog
+type: Index
+description: "Subject catalog and controlled topic vocabulary for reference notes."
+last_modified: 2026-11-20
+---
 # Reference — subject catalog
 
 Enduring, non-lifecycle knowledge lives in `reference/` — standing
@@ -24,3 +30,4 @@ a new topic tag.
 | [outreach-identity](reference/outreach-identity.md) | outreach, identity, governance |
 | [contributor-role-promotion-language](reference/contributor-role-promotion-language.md) | governance, terminology |
 | [community-knowledge-agent-tooling](reference/community-knowledge-agent-tooling.md) | tooling, ai-agents |
+| [policymcp](reference/policymcp.md) | tooling, ai-agents, governance |

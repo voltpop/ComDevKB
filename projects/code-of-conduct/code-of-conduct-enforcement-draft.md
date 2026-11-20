@@ -1,8 +1,12 @@
 ---
 title: ASF Code of Conduct — enforcement framework (ComDev draft proposal)
+type: Proposal
+description: "ComDev draft proposal for a Code of Conduct enforcement framework."
 compiled: 2026-07-30
-status: draft — not yet adopted; not the Board's 2026-08-19 submission vehicle (see 2026-07-31 update below)
+status: draft
+status_note: draft — not yet adopted; not the Board's 2026-08-19 submission vehicle (see 2026-07-31 update below)
 source: derived from comdev-code-of-conduct-revision.md
+last_modified: 2026-11-20
 ---
 
 # ASF Code of Conduct — Enforcement Framework (Draft)

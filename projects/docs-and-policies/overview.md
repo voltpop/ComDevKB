@@ -1,10 +1,13 @@
 ---
 title: Organize ComDev's docs and policies
+type: Project
+description: "Open-ended effort to organize ComDev's docs and policies, with three co-owners."
 project: docs-and-policies
 compiled: 2026-08-19
-status: new — open-ended effort, no fixed end-state; three co-owners assigned, scope not yet broken down
+status: draft
+status_note: new — open-ended effort, no fixed end-state; three co-owners assigned, scope not yet broken down
 owners: Brian Proffit (BKP), Andrew Wetmore, Drew Foulks (dfoulks)
-last_modified: 2026-08-19
+last_modified: 2026-11-20
 ---
 
 New effort raised 2026-08-19: organize ComDev's real, community-facing
@@ -48,7 +51,26 @@ here, or whether this stays a single overview until scope sharpens).
   page, 12 sections) — not yet reconciled against PR #725's coverage.
 - How the three co-owners split the work, and whether one of them chairs
   it.
-- Relationship to [[2-year-strategic-plan]]'s working-group reboot
-  (`wg-site` is the plan's stated home for site/documentation work) —
-  worth checking whether this effort should route through that working
-  group rather than running independently.
+- **Resolved 2026-08-19 — wg-website connection found:** the strategic
+  plan's `wg-site` is actually `wg-website` in the real
+  `apache/comdev-working-groups` repo (naming slip, not a separate
+  group) — the Website Working Group, charter: long-term
+  community.apache.org maintenance plus explicit
+  **de-duplication**, "work through the policy/best-practice dichotomy
+  and ensure that we are not duplicating policy docs... which one is
+  authoritative?" Its own current WIP list already has a de-duplication
+  item worded almost identically to PR #725's goal. **Andrew Wetmore —
+  one of this effort's three co-owners — is already a listed member of
+  wg-website**, alongside Rich Bowen ("ComDev PMC Sponsor"). Given that,
+  coordinating with wg-website rather than running docs-and-policies as
+  a fully independent effort looks like the right call — not yet acted
+  on, just the direction the evidence points.
+- **Third source found 2026-08-19 — [[policymcp]]:** Justin McClean (VP
+  Legal)'s independent MCP server indexes 73 distinct ASF policy
+  documents plus the full Delaware GCL text — far more granular than
+  either the Board Overview or Rich's index. First-pass gap comparison
+  in [[docs-and-policies-policy-inventory]] surfaces ~25 candidate gaps,
+  mostly `infra.apache.org` content. Working theory: this effort's real
+  value-add over PR #725 may be exactly the infra/sub-policy layer a
+  website-content-scoped index naturally misses. Not yet confirmed
+  item-by-item.

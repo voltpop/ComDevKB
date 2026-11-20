@@ -1,10 +1,14 @@
 ---
 title: Is "promotion" the right word for committer/PMC roles? (dev@community.apache.org thread)
+type: Reference
+description: "Notes on whether 'promotion' is the right word for committer and PMC roles."
 topics: [governance, terminology]
 compiled: 2026-08-04
 source: dev@community.apache.org thread, "Is the Committer/PMC member role a promotion for contributors?" (2026-07-22 to 2026-08-03)
-status: notes — thread summary plus a first-pass synthesis (2026-08-04);
+status: draft
+status_note: notes — thread summary plus a first-pass synthesis (2026-08-04);
   no ComDev position taken yet, synthesis flagged for later refinement
+last_modified: 2026-11-20
 ---
 
 ## Context

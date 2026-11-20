@@ -1,9 +1,12 @@
 ---
 title: ComDev 2-year strategic plan — six pillars, budget, working-group governance reboot
+type: Strategy
+description: "Rich Bowen's draft two-year ComDev plan: six pillars, budget, working-group governance."
 compiled: 2026-07-30
-status: Rich Bowen's (ComDev PMC Chair) own draft plan; formal PMC adoption status not yet confirmed
+status: draft
+status_note: Rich Bowen's (ComDev PMC Chair) own draft plan; formal PMC adoption status not yet confirmed
 source: https://hackmd.io/@rbowen/SyglSEYrzl
-last_modified: 2026-08-19
+last_modified: 2026-11-20
 ---
 
 # ComDev 2-year strategic plan (ingested reference)

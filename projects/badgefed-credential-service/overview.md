@@ -1,8 +1,12 @@
 ---
 title: BadgeFed-based verifiable credential service — ComDev-stewarded, foundation-wide
+type: Project
+description: "ComDev-stewarded BadgeFed instance as a foundation-wide verifiable credential service."
 project: badgefed-credential-service
 compiled: 2026-08-12
-status: platform choice confirmed (2026-08-12) — ComDev-stewarded BadgeFed instance is the credential-service direction; ops details unresolved
+status: draft
+status_note: platform choice confirmed (2026-08-12) — ComDev-stewarded BadgeFed instance is the credential-service direction; ops details unresolved
+last_modified: 2026-11-20
 ---
 
 Suggested 2026-08-12 by Gavin. Framed by the author as the technical

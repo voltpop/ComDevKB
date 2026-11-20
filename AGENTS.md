@@ -1,3 +1,9 @@
+---
+title: AGENTS.md — instructions for AI agents working in this repo
+type: Guide
+description: "Instructions for AI agents working in this repo: naming policy, sourcing limits, note structure."
+last_modified: 2026-11-20
+---
 # AGENTS.md — instructions for AI agents working in this repo
 
 ComDevKB is a Markdown knowledge base of ideas, designs, and decisions
@@ -10,9 +16,24 @@ up where things left off without replaying the original conversation.
 This is a **project knowledge base**, not a chat log. Write for a future
 reader, not as a transcript.
 
-For the "how" behind the conventions below — the actual skill functions
-(`kb-start`, `save-to-kb`, `kb-audit`, `kb-agenda`, etc.) — see
-`KB-Skills.md`.
+## Tooling: bowerbird
+
+This repo is an OKF v0.2 collection managed with the
+`bowerbird` MCP server (config in `bower.yaml`). It replaces the old
+`KB-Skills.md` function set (still in git history before 2026-11-20).
+
+- **Read:** `dirs`, then `passages` (cite file, line, trust), then `get` the
+  top hits. `search`, `list`, `links` for lookups; `status` for the rollup.
+- **Write:** `lint` before and after every change; `fix` for mechanical
+  repairs (preview, then `apply=true`). `create`/`new` for notes, `fact` to
+  record a source, `seal` only for a human's review.
+- **Frontmatter:** every note needs `type` and `description`. `status` is
+  OKF-constrained to `draft | stable | deprecated`; the informative
+  free-text line this KB favors goes in `status_note`.
+- **Known lint warnings:** policy-inventory links to apache.org site paths
+  are intentional (not KB files); orphans are tolerated until indexed.
+- **Not covered by bowerbird:** the PR workflow and the PII scan on every
+  diff (see Names section above). Do those by hand.
 
 ## Names and identifying information
 
