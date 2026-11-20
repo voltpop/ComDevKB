@@ -14,6 +14,7 @@ self-maintain.
 | [community-forum-platform](projects/community-forum-platform/overview.md) | Stub — two platforms under consideration (Discourse vs. Lemmy) | No | 2026-08-12 |
 | [ambassador-program](projects/ambassador-program/overview.md) | First draft evaluated; hybrid-funding refinement being raised with Gavin McDonald (TAC head) | Being raised at 2026-08-19 office hours | 2026-09-02 |
 | [docs-and-policies](projects/docs-and-policies/overview.md) | New — open-ended effort, three co-owners assigned, scope not yet broken down | No | 2026-08-19 |
+| [apache-local-communities](projects/apache-local-communities/overview.md) | Existing program (~2018-2020) revisited — process documented, but heartbeat/intake found stalled with no visible current owner | No | 2026-09-09 |
 
 "Last touched" is each project's `overview.md` frontmatter `compiled`
 date today — a proxy for recency, not a guarantee nothing in the
