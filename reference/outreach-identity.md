@@ -6,6 +6,7 @@ topics: [outreach, identity, governance]
 compiled: 2026-08-04
 status: draft
 status_note: draft — first pass, grounded in ComDev's real charter/programs
+last_modified: 2026-11-20
 ---
 
 Companion to [[university-outreach]] (the campus

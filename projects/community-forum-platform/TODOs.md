@@ -3,6 +3,7 @@ title: Community forum platform — open items
 type: Tasks
 description: "Open items for the community forum platform."
 project: community-forum-platform
+last_modified: 2026-11-20
 ---
 
 Pulled from `overview.md`'s "Open / unresolved" section — this project is

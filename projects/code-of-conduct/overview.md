@@ -6,6 +6,7 @@ project: code-of-conduct
 compiled: 2026-07-30
 status: draft
 status_note: living document — in progress, more sessions to be folded in
+last_modified: 2026-11-20
 ---
 
 # ComDev Code of Conduct revision

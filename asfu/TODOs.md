@@ -3,6 +3,7 @@ title: University outreach — open items
 type: Tasks
 description: "Open items for university outreach."
 project: university-outreach
+last_modified: 2026-11-20
 ---
 
 Pulled from `overview.md`'s "Open / unresolved" section — see that file

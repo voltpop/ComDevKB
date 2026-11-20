@@ -3,6 +3,7 @@ title: Ambassador program — open items
 type: Tasks
 description: "Open items for the ambassador program."
 project: ambassador-program
+last_modified: 2026-11-20
 ---
 
 Pulled from `overview.md`'s open-questions and evaluation sections.

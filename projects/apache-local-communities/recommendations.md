@@ -6,6 +6,7 @@ project: apache-local-communities
 compiled: 2026-09-09
 status: draft
 status_note: author's own analysis, drafted 2026-09-09 conversationally; not yet raised with the ComDev PMC or ALC Chair (whoever/whether that role is currently staffed)
+last_modified: 2026-11-20
 ---
 
 Author's recommendations (2026-09-09) on what the ASF/ComDev needs to

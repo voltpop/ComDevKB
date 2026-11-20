@@ -8,6 +8,7 @@ source: dev@community.apache.org thread, "Is the Committer/PMC member role a pro
 status: draft
 status_note: notes — thread summary plus a first-pass synthesis (2026-08-04);
   no ComDev position taken yet, synthesis flagged for later refinement
+last_modified: 2026-11-20
 ---
 
 ## Context

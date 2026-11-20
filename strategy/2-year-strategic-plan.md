@@ -6,7 +6,7 @@ compiled: 2026-07-30
 status: draft
 status_note: Rich Bowen's (ComDev PMC Chair) own draft plan; formal PMC adoption status not yet confirmed
 source: https://hackmd.io/@rbowen/SyglSEYrzl
-last_modified: 2026-08-19
+last_modified: 2026-11-20
 ---
 
 # ComDev 2-year strategic plan (ingested reference)

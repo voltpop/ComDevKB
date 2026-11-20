@@ -8,6 +8,7 @@ status_note: received and triaged — most items resolved same-day; see [[code-o
 source: received as an unformatted plain-text message (a flat list of dashed
   points, no headers or markdown); reformatted here into a numbered list for
   the KB, content otherwise unchanged from the original
+last_modified: 2026-11-20
 ---
 
 # External gap review of the CoC enforcement draft

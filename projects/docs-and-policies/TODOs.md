@@ -3,7 +3,7 @@ title: Organize ComDev's docs and policies — open items
 type: Tasks
 description: "Open items for organizing ComDev's docs and policies."
 project: docs-and-policies
-last_modified: 2026-08-19
+last_modified: 2026-11-20
 ---
 
 - [x] Reconcile with `apache/www-site#725` (Rich Bowen's — confirmed

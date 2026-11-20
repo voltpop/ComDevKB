@@ -4,7 +4,7 @@ type: Reference
 description: "PolicyMCP, an MCP server for ASF policy Q&A."
 topics: [tooling, ai-agents, governance]
 compiled: 2026-08-19
-last_modified: 2026-08-19
+last_modified: 2026-11-20
 ---
 
 <https://github.com/justinmclean/PolicyMCP> — an independent MCP server

@@ -6,6 +6,7 @@ project: university-outreach
 compiled: 2026-07-29
 status: draft
 status_note: target-state design — rollout deliberately not yet started, pending reconciliation against a separate inventory of current university interactions
+last_modified: 2026-11-20
 ---
 
 # ComDev university membership pipeline

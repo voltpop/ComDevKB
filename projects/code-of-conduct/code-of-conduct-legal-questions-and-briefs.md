@@ -5,6 +5,7 @@ description: "Open legal questions and research briefs on CoC enforcement (bylaw
 compiled: 2026-07-31
 status: stable
 status_note: research briefs — not legal advice; primary sources cited throughout for verification
+last_modified: 2026-11-20
 ---
 
 # CoC enforcement — legal questions and research briefs

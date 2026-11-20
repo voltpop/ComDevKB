@@ -2,6 +2,7 @@
 title: AGENTS.md — instructions for AI agents working in this repo
 type: Guide
 description: "Instructions for AI agents working in this repo: naming policy, sourcing limits, note structure."
+last_modified: 2026-11-20
 ---
 # AGENTS.md — instructions for AI agents working in this repo
 

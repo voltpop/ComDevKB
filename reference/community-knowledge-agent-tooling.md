@@ -6,6 +6,7 @@ topics: [tooling, ai-agents]
 compiled: 2026-08-05
 status: draft
 status_note: nascent concept — raised in conversation, not yet brought to ComDev PMC or any list
+last_modified: 2026-11-20
 ---
 
 # Agent-mediated consumption of community discussion channels

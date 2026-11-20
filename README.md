@@ -2,6 +2,7 @@
 title: ComDevKB
 type: Guide
 description: "What ComDevKB is, how it is laid out, and how to contribute."
+last_modified: 2026-11-20
 ---
 # ComDevKB
 

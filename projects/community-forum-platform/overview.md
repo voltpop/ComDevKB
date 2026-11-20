@@ -6,6 +6,7 @@ project: community-forum-platform
 compiled: 2026-08-12
 status: draft
 status_note: two platform options under consideration — Discourse and Lemmy (2026-08-12) — scope/hosting/audience still unresolved, not yet brought to ComDev PMC
+last_modified: 2026-11-20
 ---
 
 Raised 2026-08-12, in the same conversation that produced

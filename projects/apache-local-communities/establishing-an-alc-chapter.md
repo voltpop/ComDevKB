@@ -6,6 +6,7 @@ project: apache-local-communities
 compiled: 2026-09-09
 status: draft
 status_note: reconstructed from ComDev's public cwiki pages (COMDEV space) and a public dev@ precedent thread; the source pages were last edited 2024-04 through 2024-07, but active enforcement is in question — see [[overview]]. Not yet verified against ComDev PMC as current practice.
+last_modified: 2026-11-20
 ---
 
 Reconstructed 2026-09-09 from public sources only:

@@ -6,6 +6,7 @@ project: badgefed-credential-service
 compiled: 2026-08-12
 status: draft
 status_note: platform choice confirmed (2026-08-12) — ComDev-stewarded BadgeFed instance is the credential-service direction; ops details unresolved
+last_modified: 2026-11-20
 ---
 
 Suggested 2026-08-12 by Gavin. Framed by the author as the technical

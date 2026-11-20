@@ -6,6 +6,7 @@ project: community-forum-platform
 compiled: 2026-11-11
 status: draft
 status_note: draft, requirements gathering started 2026-11-11 — every requirement below is a candidate awaiting the author's ruling; nothing raised with ComDev PMC yet
+last_modified: 2026-11-20
 ---
 
 Widens [[community-forum-platform]] from "threaded forum" to a social

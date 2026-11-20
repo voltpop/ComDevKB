@@ -2,6 +2,7 @@
 title: Reference — subject catalog
 type: Index
 description: "Subject catalog and controlled topic vocabulary for reference notes."
+last_modified: 2026-11-20
 ---
 # Reference — subject catalog
 

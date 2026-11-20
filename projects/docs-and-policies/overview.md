@@ -7,7 +7,7 @@ compiled: 2026-08-19
 status: draft
 status_note: new — open-ended effort, no fixed end-state; three co-owners assigned, scope not yet broken down
 owners: Brian Proffit (BKP), Andrew Wetmore, Drew Foulks (dfoulks)
-last_modified: 2026-08-19
+last_modified: 2026-11-20
 ---
 
 New effort raised 2026-08-19: organize ComDev's real, community-facing
