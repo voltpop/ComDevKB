@@ -1,5 +1,7 @@
 ---
 title: BadgeFed credential service — open items
+type: Tasks
+description: "Open items for the BadgeFed credential service."
 project: badgefed-credential-service
 ---
 

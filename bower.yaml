@@ -1,0 +1,75 @@
+# bower.yaml: settings for this collection. Commit it: it is shared. It sits at the collection root (not in
+# a bundle), and any folder holding one is a collection. Every key is optional and shown at its default:
+# uncomment a line to change it. Personal or machine settings do not go here: copy env.example to .env (not committed)
+# or set BOWERBIRD_* environment variables; the environment wins over .env, and .env wins over this file, except for `format`.
+
+# Folders with a bower.yaml of their own that belong to this collection, its "bowers" (globs are fine: adr/*). Each may
+# override format, seal, about, hubs and min_similarity for its folder; the rest of its keys are this file's to decide. A
+# bower run on its own is its own collection; run inside the collection, the folder whose bowers list it is the root. Without
+# this key, every bower.yaml below this one is a bower (the older rule). Only this file sets it.
+# bowers: []
+
+# What `factcheck --fetch` may call to check a `[fact.mcp](<server> <key>) <claim> [fact.end]` fact: for each server, the tool, the
+# argument the key fills in, and the part of the tool's JSON result to watch (a dotted path; empty watches all of it). `types` names a
+# kind of fact for one such tool, so `[fact.ticket](INFRA-27707) is open [fact.end]` needs no server in the source. Only what is listed
+# here can run, and the servers come from .mcp.json. Only this file sets it: .env and the environment cannot.
+# facts: {mcp: {jira: {tool: get_issue, arg: issue_key, watch: fields.status.name}}, types: {ticket: {server: jira, tool: get_issue, arg: issue_key, watch: fields.status.name}}}
+
+# What this collection holds. The agent is told, so several loaded collections can be told apart.
+# about: Engineering runbooks and references.
+
+# Your id, prefilled in confirmation prompts. Personal: prefer BOWERBIRD_USER in .env (git user.email is the fallback).
+# user: your-id
+
+# Extra AI product names for the provenance check, besides the built-in ones (BOWERBIRD_AI_PRODUCERS overrides it).
+# ai_producers: [zed]
+
+# The MCP server may offer these roles (--role or BOWERBIRD_ROLE picks among them); drop one to turn it off.
+# read finds and reads (changes nothing), structure reorganizes, write authors and checks, lifecycle keeps it current,
+# seal records a human's review of a file.
+# roles: [read, write, structure, lifecycle, seal]
+
+# Which files `seal check=true` (a pre-commit hook, CI) leaves out. It checks every other file, and fails when one has no
+# review by a human, when a reviewed file was edited since, or when a file claims to be accepted without one. exempt is a
+# list of globs (a generated page, say: exempt: ["/tools.md"]); exempt_status lists statuses that need no review yet.
+# Shared: .env and the environment cannot change it.
+# The seal extensions (the `seal-extensions` extra): extensions: true lets several people seal the same version of a file, kept
+# together in one ledger line, and quorum: N (2 or more needs extensions: true) makes `seal check` fail until N different people
+# have. A comment on a seal needs neither: every seal can carry one.
+# seal: {exempt: [], exempt_status: [proposed, draft], extensions: false, quorum: 1}
+
+# false removes the passages and reindex tools.
+# passages: true
+
+# What the folder holds. okf: OKF bundles. adr: ADR and MADR decision records (every markdown file is one, except
+# README.md and index.md; the status is read from MADR frontmatter, a Nygard `## Status` section or a `* Status:` line).
+# markdown: any other folder of markdown (a numbered file name or an adr/decisions path still counts as an ADR). skos:
+# SKOS thesauri as Turtle, RDF/XML, JSON-LD or N-Triples (*.ttl, *.rdf, *.jsonld, *.nt, *.n3; needs `pip install
+# rdflib`), one passage per concept. asciidoc: AsciiDoc (*.adoc, *.asciidoc), one passage per section. seal-only: any
+# text files (all but `seal.exempt`), nothing indexed or searched. No frontmatter is needed outside okf. Then a
+# server offers a few tools: skos and asciidoc passages, reindex and seal; markdown adds get, search, dirs, links, create
+# and config; adr adds move; seal-only just seal. A hit is unverified until a human seals it.
+# format: okf
+
+# Concepts many others link to rank a little higher in passages.
+# hubs: true
+
+# Also match passages by meaning. It needs the `semantic` extra: `uvx --from 'bowerbird-mcp[semantic]' bowerbird-mcp`, `uv tool
+# install 'bowerbird-mcp[semantic]'`, or `uv run --with fastembed` for the bare script. The model (~65 MB) downloads on first use
+# into ~/.cache/bowerbird-mcp/models, and the vectors are kept in the index.
+# semantic: false
+# semantic_model: BAAI/bge-small-en-v1.5
+# min_similarity: 0.6
+# How semantic search finds neighbours. scan: exact, in Python (fine to a few thousand passages). sqlite-vec: exact,
+# in C inside SQLite (10K+; `pip install sqlite-vec`, needs a Python that can load SQLite extensions). hnsw:
+# approximate, fastest at 100K+ (`pip install hnswlib`; a graph file beside the index; builds are seeded and single-
+# threaded so they repeat, but it can miss a true top hit, and a tight type/tag/dir filter sees only the top 500).
+# vector_index: scan
+
+# The passage index: one SQLite file (a cache; safe to delete). "" keeps it in memory.
+# index: .bower/index.db
+
+# auto: passages keeps the index current. manual: only `reindex` does (a hook, say) and passages just reads.
+# build: auto
+
+about: ComDev (Apache Community Development) project notes, decisions and reference.

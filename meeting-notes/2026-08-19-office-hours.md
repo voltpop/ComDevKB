@@ -1,7 +1,10 @@
 ---
 title: ComDev office hours — 2026-08-19
+type: Meeting
+description: "Prep notes for the 2026-08-19 ComDev office hours."
 compiled: 2026-08-19
-status: prep notes going into the meeting — outcomes/decisions section to be filled in live
+status: draft
+status_note: prep notes going into the meeting — outcomes/decisions section to be filled in live
 ---
 
 # ComDev office hours — 2026-08-19

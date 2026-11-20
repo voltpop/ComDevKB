@@ -1,8 +1,11 @@
 ---
 title: Agent-mediated consumption of community discussion channels — AWS precedent and ASF applicability
+type: Reference
+description: "Agent-mediated consumption of community discussion channels: AWS precedent and ASF applicability."
 topics: [tooling, ai-agents]
 compiled: 2026-08-05
-status: nascent concept — raised in conversation, not yet brought to ComDev PMC or any list
+status: draft
+status_note: nascent concept — raised in conversation, not yet brought to ComDev PMC or any list
 ---
 
 # Agent-mediated consumption of community discussion channels

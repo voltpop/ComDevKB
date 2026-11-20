@@ -1,3 +1,8 @@
+---
+title: ComDevKB
+type: Guide
+description: "What ComDevKB is, how it is laid out, and how to contribute."
+---
 # ComDevKB
 
 A knowledge base for Apache Community Development (ComDev) work: ideas,
@@ -74,9 +79,9 @@ role-only; that's a historical artifact, not a mistake to chase down.
 ## Contributing a change
 
 `main` requires changes via pull request (a GitHub ruleset, not classic
-branch protection). Work in a branch, open a PR — see `KB-Skills.md`'s
-`save-to-kb` for the full mechanics, including the PII scan every diff
-should get before it lands. If you're not sure whether something is a
+branch protection). Work in a branch, open a PR — run `lint` (bowerbird) first, and
+scan every diff for emails and session metadata before it lands (see
+`AGENTS.md`). If you're not sure whether something is a
 new project, an addition to an existing one, or reference material,
 `AGENTS.md`'s Concepts/Layout sections walk through the distinction.
 
@@ -86,11 +91,9 @@ is protected. Once you open the PR, a CI job automatically stamps
 `last_modified:` in whatever file(s) you touched, so you don't have to
 remember to do it by hand.
 
-## Full conventions and skills reference
+## Full conventions and tooling
 
 - **[AGENTS.md](AGENTS.md)** — required policy: anonymization, frontmatter,
   the project/effort/sub-project/milestone concepts, git workflow.
-- **[KB-Skills.md](KB-Skills.md)** — the "how": starting a project, landing
-  a change, auditing for staleness, compiling an office-hours agenda, and
-  what's deliberately different here from where these conventions were
-  adapted from (`infrastructure-aikb`).
+- **`bower.yaml`** — bowerbird settings. Agents query and edit this KB
+  through the `bowerbird` MCP server (see `AGENTS.md`, "Tooling").

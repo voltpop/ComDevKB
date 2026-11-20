@@ -1,8 +1,11 @@
 ---
 title: ComDev outreach identity — what we offer as a collective, and how current efforts express it
+type: Reference
+description: "What ComDev offers as a collective and how current efforts express it."
 topics: [outreach, identity, governance]
 compiled: 2026-08-04
-status: draft — first pass, grounded in ComDev's real charter/programs
+status: draft
+status_note: draft — first pass, grounded in ComDev's real charter/programs
 ---
 
 Companion to [[university-outreach]] (the campus

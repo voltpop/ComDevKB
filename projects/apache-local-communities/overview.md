@@ -1,8 +1,11 @@
 ---
 title: Apache Local Communities (ALC) — chapter program stewardship
+type: Project
+description: "Stewardship of the ALC chapter program and its stalled heartbeat mechanism."
 project: apache-local-communities
 compiled: 2026-09-09
-status: existing ComDev program (city/region chapters, running since ~2018-2020); revisited 2026-09-09 after two unanswered establishment requests surfaced a stalled heartbeat mechanism — not yet raised with the ComDev PMC as a fix proposal
+status: draft
+status_note: existing ComDev program (city/region chapters, running since ~2018-2020); revisited 2026-09-09 after two unanswered establishment requests surfaced a stalled heartbeat mechanism — not yet raised with the ComDev PMC as a fix proposal
 ---
 
 ## Context / motivation

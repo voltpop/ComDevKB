@@ -1,3 +1,8 @@
+---
+title: Reference — subject catalog
+type: Index
+description: "Subject catalog and controlled topic vocabulary for reference notes."
+---
 # Reference — subject catalog
 
 Enduring, non-lifecycle knowledge lives in `reference/` — standing

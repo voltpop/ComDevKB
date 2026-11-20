@@ -1,8 +1,11 @@
 ---
 title: Organize ComDev's docs and policies
+type: Project
+description: "Open-ended effort to organize ComDev's docs and policies, with three co-owners."
 project: docs-and-policies
 compiled: 2026-08-19
-status: new — open-ended effort, no fixed end-state; three co-owners assigned, scope not yet broken down
+status: draft
+status_note: new — open-ended effort, no fixed end-state; three co-owners assigned, scope not yet broken down
 owners: Brian Proffit (BKP), Andrew Wetmore, Drew Foulks (dfoulks)
 last_modified: 2026-08-19
 ---

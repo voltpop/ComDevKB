@@ -1,5 +1,7 @@
 ---
 title: Ambassador program — open items
+type: Tasks
+description: "Open items for the ambassador program."
 project: ambassador-program
 ---
 

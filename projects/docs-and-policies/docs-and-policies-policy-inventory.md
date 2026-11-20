@@ -1,8 +1,11 @@
 ---
 title: Docs and policies — policy source inventory
+type: Reference
+description: "Inventory of policy sources, with PolicyMCP gap list verified against Rich's index."
 project: docs-and-policies
 compiled: 2026-08-19
-status: three sources scraped, PolicyMCP gap list verified live against Rich's index — flags active overlapping work, not yet reconciled with the effort's three co-owners
+status: draft
+status_note: three sources scraped, PolicyMCP gap list verified live against Rich's index — flags active overlapping work, not yet reconciled with the effort's three co-owners
 last_modified: 2026-08-19
 ---
 

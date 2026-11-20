@@ -1,3 +1,8 @@
+---
+title: Projects — status index
+type: Index
+description: "Status index of ComDev projects, by directory."
+---
 # Projects — status index
 
 Ground truth for which projects *exist* is `ls projects/` itself; this

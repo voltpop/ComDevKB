@@ -1,3 +1,8 @@
+---
+title: Strategy
+type: Index
+description: "Leadership-owned strategic thinking: what lives in strategy/."
+---
 # Strategy
 
 Leadership-owned strategic thinking: mission, vision, priority-setting,

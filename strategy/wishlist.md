@@ -1,5 +1,7 @@
 ---
 title: ComDev wishlist — open-ended ideas not yet scoped as projects
+type: Strategy
+description: "Open-ended ComDev ideas not yet scoped as projects."
 compiled: 2026-08-19
 ---
 

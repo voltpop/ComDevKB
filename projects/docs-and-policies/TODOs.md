@@ -1,5 +1,7 @@
 ---
 title: Organize ComDev's docs and policies — open items
+type: Tasks
+description: "Open items for organizing ComDev's docs and policies."
 project: docs-and-policies
 last_modified: 2026-08-19
 ---

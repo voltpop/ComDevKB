@@ -1,3 +1,8 @@
+---
+title: Archive
+type: Index
+description: "Where closed ComDevKB projects are archived."
+---
 # Archive
 
 Closed ComDevKB projects land here, moved as a full directory (not a

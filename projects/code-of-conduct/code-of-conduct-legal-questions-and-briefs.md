@@ -1,7 +1,10 @@
 ---
 title: CoC enforcement — open legal questions and research briefs (ASF bylaws, Delaware law, adoption precedent)
+type: Reference
+description: "Open legal questions and research briefs on CoC enforcement (bylaws, Delaware law, precedent)."
 compiled: 2026-07-31
-status: research briefs — not legal advice; primary sources cited throughout for verification
+status: stable
+status_note: research briefs — not legal advice; primary sources cited throughout for verification
 ---
 
 # CoC enforcement — legal questions and research briefs

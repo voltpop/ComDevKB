@@ -1,5 +1,7 @@
 ---
 title: Community forum platform — open items
+type: Tasks
+description: "Open items for the community forum platform."
 project: community-forum-platform
 ---
 

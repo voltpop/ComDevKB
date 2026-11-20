@@ -1,8 +1,11 @@
 ---
 title: Recommendations — better supporting ALC chapters
+type: Proposal
+description: "Recommendations for better supporting ALC chapters."
 project: apache-local-communities
 compiled: 2026-09-09
-status: author's own analysis, drafted 2026-09-09 conversationally; not yet raised with the ComDev PMC or ALC Chair (whoever/whether that role is currently staffed)
+status: draft
+status_note: author's own analysis, drafted 2026-09-09 conversationally; not yet raised with the ComDev PMC or ALC Chair (whoever/whether that role is currently staffed)
 ---
 
 Author's recommendations (2026-09-09) on what the ASF/ComDev needs to

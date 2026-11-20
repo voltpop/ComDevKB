@@ -1,5 +1,7 @@
 ---
 title: University outreach — open items
+type: Tasks
+description: "Open items for university outreach."
 project: university-outreach
 ---
 

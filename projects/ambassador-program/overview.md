@@ -1,8 +1,11 @@
 ---
 title: Ambassador program — foundation-wide, ComDev-stewarded
+type: Project
+description: "Foundation-wide ambassador program proposal, ComDev-stewarded, with evaluation of the first draft."
 project: ambassador-program
 compiled: 2026-08-19
-status: first draft exists (apache/comdev-working-groups proposed/ambassadors.md) — evaluated 2026-08-19 ahead of ComDev office hours; TAC/ComDev budgetary split softly decided 2026-09-02 (TAC means-tested, ambassador travel is ComDev's own remit, non-funding eligibility criterion TBD) — informal, not yet formalized or raised with Rich or the PMC
+status: draft
+status_note: first draft exists (apache/comdev-working-groups proposed/ambassadors.md) — evaluated 2026-08-19 ahead of ComDev office hours; TAC/ComDev budgetary split softly decided 2026-09-02 (TAC means-tested, ambassador travel is ComDev's own remit, non-funding eligibility criterion TBD) — informal, not yet formalized or raised with Rich or the PMC
 last_modified: 2026-08-19
 ---
 

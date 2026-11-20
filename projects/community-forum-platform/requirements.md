@@ -1,8 +1,11 @@
 ---
 title: ASF social media platform — requirements
+type: Requirements
+description: "Candidate requirements for an ASF social media platform, awaiting the author's ruling."
 project: community-forum-platform
 compiled: 2026-11-11
-status: draft, requirements gathering started 2026-11-11 — every requirement below is a candidate awaiting the author's ruling; nothing raised with ComDev PMC yet
+status: draft
+status_note: draft, requirements gathering started 2026-11-11 — every requirement below is a candidate awaiting the author's ruling; nothing raised with ComDev PMC yet
 ---
 
 Widens [[community-forum-platform]] from "threaded forum" to a social
