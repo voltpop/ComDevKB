@@ -1,8 +1,6 @@
 ---
-okf_version: "0.2"
-last_modified: 2026-11-20
+okf_version: '0.2'
 ---
-
 # asfu
 
 ## All documents
@@ -13,5 +11,6 @@ last_modified: 2026-11-20
 
 * [University outreach — open items](./TODOs.md) - Open items for university outreach.
 * [ComDev university membership pipeline — IEEE-inspired campus program, ASF-native governance mapping, university institutional guardrails, and success metrics](./overview.md) - Target-state design for a ComDev university membership pipeline, mapped to ASF governance.
+* [ASFU scaffold: talk-through before office hours (2026-11-20)](./talk-2026-11-20-asfu-scaffold.md) - Talk-through record of Drew Foulks' ideas for the ASFU campus program, ahead of the next ComDev office hours where Nina joins as the...
 
 <!-- bowerbird-index:end -->
