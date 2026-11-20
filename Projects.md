@@ -14,7 +14,7 @@ self-maintain.
 | Project | Status | Raised with PMC? | Last touched |
 |---|---|---|---|
 | [code-of-conduct](projects/code-of-conduct/overview.md) | Living document — in progress, more sessions to be folded in | Ongoing Board-owned process, ComDev input | 2026-07-31 |
-| [university-outreach](projects/university-outreach/overview.md) | Target-state design; rollout deliberately shelved pending inventory reconciliation | No — rollout explicitly not on the table yet | 2026-07-29 |
+| [university-outreach](asfu/overview.md) | Target-state design; rollout deliberately shelved pending inventory reconciliation | No — rollout explicitly not on the table yet | 2026-07-29 |
 | [badgefed-credential-service](projects/badgefed-credential-service/overview.md) | Platform choice confirmed; ops details unresolved | No | 2026-08-12 |
 | [community-forum-platform](projects/community-forum-platform/overview.md) | Stub — two platforms under consideration (Discourse vs. Lemmy) | No | 2026-08-12 |
 | [ambassador-program](projects/ambassador-program/overview.md) | First draft evaluated; hybrid-funding refinement being raised with Gavin McDonald (TAC head) | Being raised at 2026-08-19 office hours | 2026-09-02 |
