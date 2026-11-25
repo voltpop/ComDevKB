@@ -42,3 +42,12 @@ Mode: new. Questions: 12. Template: MADR. Folder: `asfu/decisions/`. Land: branc
 ## Rounds
 
 (Written round by round below.)
+
+### Round 1 (Q1 to Q4)
+
+| Q | Question | Answer | Note |
+|---|---|---|---|
+| 1 | Officer seats | Full foundation set including Treasurer | Overrules the recommendation (President, VP, Secretary). Treasurer holds no money, so the seat teaches the role without a budget. Keep the overruled option in Alternatives. |
+| 2 | Term | One academic year, elected each fall | Recommended. |
+| 3 | Electors | All chapter members vote | Recommended. |
+| 4 | Scope | Chapters only | Recommended. Program-level governance is a later ADR. |
