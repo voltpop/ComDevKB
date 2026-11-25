@@ -1,6 +1,7 @@
 ---
 type: Guide
 description: "ASFU decision records: MADR template, owner, numbering, landing rules."
+last_modified: 2026-11-25
 ---
 # ASFU decisions
 

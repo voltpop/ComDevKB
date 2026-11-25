@@ -1,6 +1,7 @@
 ---
 type: Index
 description: "Generated index of ASFU decision records."
+last_modified: 2026-11-25
 ---
 # ADR index
 

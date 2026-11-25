@@ -7,6 +7,7 @@ status: draft
 generated:
   by: claude-code/claude-sonnet-5-5
   at: 2026-11-25T16:10:00Z
+last_modified: 2026-11-25
 ---
 
 # ADR question record: chapter governance structure

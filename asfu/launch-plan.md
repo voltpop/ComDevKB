@@ -10,6 +10,7 @@ compiled: 2026-11-25
 generated:
   by: claude-code/claude-sonnet-5-5
   at: 2026-11-25T15:42:52Z
+last_modified: 2026-11-25
 ---
 
 # ASFU launch plan

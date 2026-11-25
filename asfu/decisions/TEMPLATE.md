@@ -4,6 +4,7 @@ description: "MADR template for ASFU decision records."
 status: proposed
 date: YYYY-MM-DD
 decision-makers: the people who decided
+last_modified: 2026-11-25
 ---
 
 # The decision, as a short title

@@ -4,6 +4,7 @@ description: "Every ASFU chapter runs a board and every effort runs a chapter PM
 status: proposed
 date: 2026-11-25
 decision-makers: Drew Foulks
+last_modified: 2026-11-25
 ---
 
 # Every ASFU chapter runs a board, and every effort inside it runs a PMC
