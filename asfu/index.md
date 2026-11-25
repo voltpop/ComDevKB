@@ -10,7 +10,9 @@ okf_version: '0.2'
 ### (root)
 
 * [University outreach — open items](./TODOs.md) - Open items for university outreach.
+* [ASFU launch plan — website, Discord, governance](./launch-plan.md) - Consolidates the scattered ASFU notes into three workstreams (students.apache.org, Discord, chapter governance) with deliverables,...
 * [ComDev university membership pipeline — IEEE-inspired campus program, ASF-native governance mapping, university institutional guardrails, and success metrics](./overview.md) - Target-state design for a ComDev university membership pipeline, mapped to ASF governance.
 * [ASFU scaffold: talk-through before office hours (2026-11-20)](./talk-2026-11-20-asfu-scaffold.md) - Talk-through record of Drew Foulks' ideas for the ASFU campus program, ahead of the next ComDev office hours where Nina joins as the...
+* [ASFU website and Discord — scoping notes](./website-and-discord.md) - Scoping notes for the ASFU website (students.apache.org) and an ASF-wide Discord open to university people: constraints, open questions,...
 
 <!-- bowerbird-index:end -->

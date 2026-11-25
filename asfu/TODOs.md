@@ -12,7 +12,8 @@ for full context on each.
 - [ ] Set up a Discord and a website for ASFU (owner: Drew Foulks,
       added 2026-11-20). Not yet scoped: hosting, naming, and whether
       "ASFU" survives as the working name. Check ASF trademark and
-      infra policy before registering anything.
+      infra policy before registering anything. Scoping started:
+      see [[website-and-discord]] and the consolidated [[launch-plan]].
 - [ ] Liability posture for chapter events (physical meetups/hackathons
       under Apache branding) — trademark/endorsement optics are covered;
       actual legal exposure is not. Needs review from whoever handles
