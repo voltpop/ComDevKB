@@ -1,0 +1,3 @@
+# ASFU decision records. MADR format, read by bowerbird as an adr bower.
+format: adr
+about: 'ASFU architecture and governance decision records (MADR).'
