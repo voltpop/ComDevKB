@@ -51,3 +51,12 @@ Mode: new. Questions: 12. Template: MADR. Folder: `asfu/decisions/`. Land: branc
 | 2 | Term | One academic year, elected each fall | Recommended. |
 | 3 | Electors | All chapter members vote | Recommended. |
 | 4 | Scope | Chapters only | Recommended. Program-level governance is a later ADR. |
+
+### Round 2 (Q5 to Q8)
+
+| Q | Question | Answer | Note |
+|---|---|---|---|
+| 5 | Who is a chapter member | Joins the chapter's Discord and attends one meeting | Recommended. |
+| 6 | Team name | PMC, the foundation's name | Recommended. Written "<School> chapter PMC" to avoid confusion with real PMCs. |
+| 7 | Team chair term | Chosen per project, no fixed term | Overrules the recommendation (six months rotating). Chair seat has no clock, so the ADR names a Revisit-when: chairs that hold seats past a year. |
+| 8 | Starting a new effort | Written proposal, board lazy consensus | Recommended. |
