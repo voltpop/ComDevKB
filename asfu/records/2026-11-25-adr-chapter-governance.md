@@ -60,3 +60,12 @@ Mode: new. Questions: 12. Template: MADR. Folder: `asfu/decisions/`. Land: branc
 | 6 | Team name | PMC, the foundation's name | Recommended. Written "<School> chapter PMC" to avoid confusion with real PMCs. |
 | 7 | Team chair term | Chosen per project, no fixed term | Overrules the recommendation (six months rotating). Chair seat has no clock, so the ADR names a Revisit-when: chairs that hold seats past a year. |
 | 8 | Starting a new effort | Written proposal, board lazy consensus | Recommended. |
+
+### Round 3 (Q9 to Q12)
+
+| Q | Question | Answer | Note |
+|---|---|---|---|
+| 9 | Shepherds per chapter | One per chapter | Overrules the recommendation (two from a pool). Single point of failure, so the ADR names a Revisit-when: a chapter whose Shepherd goes quiet. |
+| 10 | Switching models | Reframed: every chapter has a board, every effort has a PMC | No model choice at chapter level, so "can it switch" is moot. Supersedes the launch-plan Structure row (the "does it want a president" rule). Example efforts named: fundraising, outreach, education, development (maybe for metrics). Set is open, not fixed. |
+| 11 | Heartbeat owner | The chapter's Shepherd | Recommended (with one Shepherd, not two). ComDev sees the count of missed reports. |
+| 12 | Board cadence | Monthly, minutes on the chapter page | Recommended. |
