@@ -15,4 +15,15 @@ okf_version: '0.2'
 * [ASFU scaffold: talk-through before office hours (2026-11-20)](./talk-2026-11-20-asfu-scaffold.md) - Talk-through record of Drew Foulks' ideas for the ASFU campus program, ahead of the next ComDev office hours where Nina joins as the...
 * [ASFU website and Discord — scoping notes](./website-and-discord.md) - Scoping notes for the ASFU website (students.apache.org) and an ASF-wide Discord open to university people: constraints, open questions,...
 
+### decisions
+
+* [Every ASFU chapter runs a board, and every effort inside it runs a PMC](./decisions/ADR-001-chapter-board-and-effort-pmcs.md) - Every ASFU chapter runs a board and every effort runs a chapter PMC: officers, terms, Shepherd, cadence.
+* [ADR index](./decisions/INDEX.md) - Generated index of ASFU decision records.
+* [ASFU decisions](./decisions/README.md) - ASFU decision records: MADR template, owner, numbering, landing rules.
+* [The decision, as a short title](./decisions/TEMPLATE.md) - MADR template for ASFU decision records.
+
+### records
+
+* [ADR question record, ASFU chapter governance structure (2026-11-25)](./records/2026-11-25-adr-chapter-governance.md) - Question record for the first ASFU ADR, chapter governance structure. Premises, rounds, defaults.
+
 <!-- bowerbird-index:end -->

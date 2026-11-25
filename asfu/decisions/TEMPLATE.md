@@ -1,4 +1,6 @@
 ---
+type: Template
+description: "MADR template for ASFU decision records."
 status: proposed
 date: YYYY-MM-DD
 decision-makers: the people who decided
